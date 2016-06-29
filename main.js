@@ -6,10 +6,10 @@
 // @version      1.6.2
 // @author       楼教主
 // @license      MIT
-// @homepageURL  https://github.com/52cik/github-hans
+// @homepageURL  https://github.com/yamiodymel/github-hans
 // @match        http://*.github.com/*
 // @match        https://*.github.com/*
-// @require      http://www.52cik.com/github-hans/locals.js?v1.6.2
+// @require      https://yamiodymel.github.io/github-hans/locals.js
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
