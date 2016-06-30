@@ -56,7 +56,11 @@ I18N.zh = {
             "Raw": "原生",
             "Blame": "比對",
             "lines": "行數",
-
+            "Edit file": "編輯檔案",
+            "Preview changes": "預覽變更",
+            "Loading preview...": "讀取預覽中...",
+            "or cancel": "或者取消",
+            
             "forked from": "衍生於",
             "This branch is ": "這個分支處於",
             "ahead of": "還要前面於",
@@ -881,7 +885,7 @@ I18N.zh = {
             "Commit directly to the": "提交到",
             "Create a": "建立",
             "new branch": "新分支",
-            "for this commit and start a pull request.": "為這個提交，並且發起一個合併請求。",
+            "for this commit and start a pull request.": "給這個提交，並且發起一個合併請求。",
             "Learn more about pull requests.": "了解更多合併請求。",
 
             // Find file 頁面
