@@ -871,7 +871,7 @@ I18N.zh = {
             "Uploading": "檔案上傳中",
             "of": "",
             "files": "",
-            "Commit changes": "提交變更",
+            "Commit changes": "送出變更",
             "Add files via upload": "透過添加檔案上傳",
             "Optional extended description": "可選的描述",
             "Add an optional extended description…": "添加描述... (可選)",
