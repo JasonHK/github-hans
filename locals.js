@@ -63,6 +63,7 @@ I18N.zh = {
             "committed on": "提交於",
             "Latest commit": "最後一次提交為",
             "Pull request": "合併請求",
+            "branch.": "分支。"
 
             // 未登入部分
             "Personal": "個人",
