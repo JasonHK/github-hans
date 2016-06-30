@@ -232,7 +232,7 @@
 
         var RelativeTime = function (str, el) { // 相对时间解析
             if (/^on ([\w ]+)$/.test(str)) {
-                return '于 ' + el.title.replace(/ .+$/, '');
+                return '於 ' + el.title.replace(/ .+$/, '');
             }
 
             // 使用字典公共翻译的第二个正则翻译相对时间
@@ -285,7 +285,7 @@
                     var data = $(this).data(); // 获取节点上的 data
                     var $tip = $(tip[0]);
 
-                    $tip.html(data.count + ' 次贡献 ' + data.date);
+                    $tip.html(data.count + ' 次貢獻 ' + data.date);
 
                     var rect = this.getBoundingClientRect(); // 获取元素位置
                     var left = rect.left + window.pageXOffset - tip[0].offsetWidth / 2 + 5.5;
