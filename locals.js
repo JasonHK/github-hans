@@ -11,22 +11,22 @@ I18N.conf = {
      *
      * 通知頁面 /notifications
      * 關注頁面 /watching
-     * 點讚頁面 /stars
+     * 星號頁面 /stars
      * 問題頁面 /issues
-     * 拉取請求 /pulls
+     * 合併請求 /pulls
      * 搜尋頁面 /search
      * 趨勢頁面 /trending
      * 展示頁面 /showcases
      * 導入倉庫 /new/import
      *
-     * 未登錄首頁 /
+     * 未登入首頁 /
      */
     rePagePath: /\/(notifications|watching|stars|issues|search|pulls|trending|showcases|$|new\/import)/,
 
     /**
      * 匹配 url 頁面的正則
      *
-     * 代碼片段頁面 gist
+     * 程式碼片段頁面 gist
      */
     rePageUrl: /(gist)\.github.com/,
 
@@ -35,8 +35,8 @@ I18N.conf = {
      *
      * 麵包屑 breadcrumb
      * 檔案列表 files js-navigation-container js-active-navigation-container
-     * 代碼高亮 hig​​hlight tab-size js-file-line-container
-     * 代碼差異 data highlight blob-wrapper
+     * 程式碼高亮 hig​​hlight tab-size js-file-line-container
+     * 程式碼差異 data highlight blob-wrapper
      * wiki內容 markdown-body
      */
     reIgnore: /(breadcrumb|files js-navigation-container|highlight tab-size|highlight blob-wrapper|markdown-body)/,
@@ -52,23 +52,23 @@ I18N.zh = {
 
     "pubilc": { // 公共區域翻譯
         "static": { // 靜態翻譯
-            // 未登錄部分
+            // 未登入部分
             "Personal": "個人",
             "Open source": "開源",
             "Business": "商業",
             "Pricing": "定價",
             "Support": "支援",
-            "Sign in": "登錄",
+            "Sign in": "登入",
             "Sign up": "註冊",
 
             "Search GitHub": "GitHub 一下，你就知道",
-            "This repository": "當前倉庫",
+            "This repository": "目前倉庫",
             "Search": "搜尋",
 
-            "Pull Requests": "拉取請求",
-            "Pull requests": "拉取請求",
+            "Pull Requests": "合併請求",
+            "Pull requests": "合併請求",
             "Issues": "問題",
-            "Gist": "代碼片段",
+            "Gist": "程式碼片段",
             "Your dashboard": "返回首頁",
 
             "You have no unread notifications": "您沒有未讀通知",
@@ -83,7 +83,7 @@ I18N.zh = {
 
             "Signed in as": "您好",
             "Your profile": "您的首頁",
-            "Your stars": "點讚的項目",
+            "Your stars": "星號的項目",
             "Explore": "探索",
             "Integrations": "整合",
             "Help": "幫助",
@@ -92,7 +92,7 @@ I18N.zh = {
 
             "Showcases": "展櫃",
             "Trending": "趨勢",
-            "Stars": "已讚",
+            "Stars": "已星號",
 
 
             "Previous": "上一頁",
@@ -129,16 +129,16 @@ I18N.zh = {
             "Add bold text <cmd+b>": "加粗 <cmd+b>",
             "Add italic text <cmd+i>": "斜體 <cmd+i>",
             "Insert a quote": "插入引用",
-            "Insert code": "插入代碼",
+            "Insert code": "插入程式碼",
             "Add a link <cmd+k>": "連接 <cmd+k>",
             "Add a bulleted list": "添加無序列表",
             "Add a numbered list": "添加有序列表",
             "Add a task list": "添加任務列表",
             "Directly mention a user or team": "直接提到使用者或團隊",
-            "Reference an issue or pull request": "參考問題或拉取請求",
+            "Reference an issue or pull request": "參考問題或合併請求",
             "Leave a comment": "留下評論",
 
-            "Attach files by dragging & dropping,": "拖拽添加附件，",
+            "Attach files by dragging & dropping,": "拖曳添加附件，",
             "selecting them": "或選擇檔案",
             ", or pasting from the clipboard.": "，或複製貼上內容。",
             "Styling with Markdown is supported": "支援 Markdown 功能喔。",
@@ -157,9 +157,9 @@ I18N.zh = {
             "Unfollow": "取消關注",
             "Watch": "關注",
             "Unwatch": "取消關注",
-            "Star": "點讚",
-            "Unstar": "取消點讚",
-            "Fork": "派生",
+            "Star": "星號",
+            "Unstar": "取消星號",
+            "Fork": "衍生",
 
             // 信箱驗證提示
             "Please verify your email address to access all of GitHub's features.": "請驗證您的電子郵件地址以便開啟所有 GitHub 功能。",
@@ -219,12 +219,12 @@ I18N.zh = {
         ],
     },
 
-    "page-dashboard": { // 已登錄的首頁
+    "page-dashboard": { // 已登入的首頁
         "static": { // 靜態翻譯
             // 新手幫助
-            "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 無需任何代碼！",
+            "Learn Git and GitHub without any code!": "了解 Git 和 GitHub 無需任何程式碼！",
             "Using the Hello World guide, you’ll create a repository, start a branch,": "使用 Hello World 指南，您將建立一個倉庫，開始一個分支，",
-            "write comments, and open a pull request.": "寫評論，並建立一個拉取請求。(教學內容就不翻譯了...)",
+            "write comments, and open a pull request.": "寫評論，並建立一個合併請求。(教學內容就不翻譯了...)",
             "Let's get started!": "讓我們開始吧！",
             "Hide this notice forever": "永久的隱藏該訊息",
 
@@ -247,26 +247,26 @@ I18N.zh = {
             "Public": "公共",
             "Private": "私有",
             "Sources": "原始碼",
-            "Forks": "派生",
+            "Forks": "衍生",
 
             "View": "查看",
             "new broadcast": "條新公告",
             "new broadcasts": "條新公告",
 
             // 動態 狀態詞
-            "starred": "讚了",
-            "forked": "派生了",
-            "forked from": "派生至",
+            "starred": "星號了",
+            "forked": "衍生了",
+            "forked from": "衍生至",
             "created repository": "建立了倉庫",
-            "opened pull request": "發起了拉取請求",
-            "commented on pull request": "評論了拉取請求",
+            "opened pull request": "發起了合併請求",
+            "commented on pull request": "評論了合併請求",
             "opened issue": "新建問題",
             "close issue": "關閉問題",
             "added": "添加了",
             "to": "到",
             "pushed to": "推送了",
             "closed issue": "關閉了問題",
-            "merged pull request": "合併了拉取請求",
+            "merged pull request": "合併了合併請求",
             "commented on issue": "提交了評論",
 
             "More": "更多",
@@ -295,7 +295,7 @@ I18N.zh = {
 
             "Joined on": "註冊於",
             "Change your avatar": "修改頭像",
-            "Starred": "讚了",
+            "Starred": "星號了",
             "Following": "關注",
             "Organizations": "組織",
             "Contributions": "貢獻",
@@ -334,14 +334,14 @@ I18N.zh = {
             "F": "週五",
 
             "Includes contributions from private repositories you can access.": "您可以訪問包括私人倉庫。",
-            "Summary of pull requests, issues opened, and commits.": "包括 拉取請求, 提問, 提交.",
+            "Summary of pull requests, issues opened, and commits.": "包括 合併請求, 提問, 提交.",
             "Learn how we count contributions": "您想知道如何計算貢獻的嗎",
             "Less": "少",
             "More": "多",
 
             // "Contributions in the last year": "過去一年的貢獻",
             // "Longest streak": "最長連續貢獻天數",
-            // "Current streak": "當前連續貢獻天數",
+            // "Current streak": "目前連續貢獻天數",
             // "No recent contributions": "最近沒有貢獻",
 
             // 2016-05-20 更新貢獻日曆部分
@@ -355,25 +355,25 @@ I18N.zh = {
             "Visitors will now see your public and anonymized private contributions.": "訪客將看到您的公共和匿名的私人貢獻。",
 
             "commits": "次提交",
-            "Pull Request": "拉取請求",
-            "Pull Requests": "拉取請求",
+            "Pull Request": "合併請求",
+            "Pull Requests": "合併請求",
             "Issue reported": "問題報告",
             "Issues reported": "問題報告",
 
             // 動態 狀態詞
-            "starred": "讚了",
+            "starred": "星號了",
             "forked": "收藏了",
             "forked from": "收藏至",
             "created repository": "建立了倉庫",
-            "opened pull request": "發起了拉取請求",
-            "commented on pull request": "評論了拉取請求",
+            "opened pull request": "發起了合併請求",
+            "commented on pull request": "評論了合併請求",
             "opened issue": "新建問題",
             "close issue": "關閉問題",
             "added": "添加了",
             "to": "到",
             "pushed to": "推送了",
             "closed issue": "關閉了問題",
-            "merged pull request": "合併了拉取請求",
+            "merged pull request": "合併了合併請求",
             "commented on issue": "提交了評論",
 
             // 倉庫 tab
@@ -382,7 +382,7 @@ I18N.zh = {
             "Public": "公共",
             "Private": "私有",
             "Sources": "原始碼",
-            "Forks": "派生",
+            "Forks": "衍生",
             "Mirrors": "鏡像",
             "New": "新建",
 
@@ -425,7 +425,7 @@ I18N.zh = {
             "Public profile": "基本資料",
             "Profile picture": "我的頭像",
             "Upload new picture": "上傳新圖片",
-            "You can also drag and drop a picture from your computer.": "您也可以直接拖拽照片鏡像上傳.",
+            "You can also drag and drop a picture from your computer.": "您也可以直接拖曳照片鏡像上傳.",
             "Name": "暱稱",
             "Public email": "公共信箱",
             "Don’t show my email address": "不顯示我的信箱",
@@ -546,7 +546,7 @@ I18N.zh = {
             "provides another layer of security to your account.": "為您的帳戶提供了另一層安全保障。",
             "Sessions": "會話訊息",
             "This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.": "這是您登陸的設備會話列表，如果不是您本人操作，可以關閉該會話。",
-            "Your current session": "您當前的會話",
+            "Your current session": "您目前的會話",
             "Location:": "地址",
             "Signed in:": "登陸於",
             "Last accessed on": "最後訪問時間",
@@ -582,7 +582,7 @@ I18N.zh = {
             "OAuth documentation": "OAuth 檔案",
             "for more information": "。",
             "Register application": "註冊應用",
-            "Drag & drop": "拖拽上傳",
+            "Drag & drop": "拖曳上傳",
             "or": "或者",
             "choose an image": "選擇圖片",
 
@@ -613,7 +613,7 @@ I18N.zh = {
             [/Using\n\s+([\d.]+) of\n\s+(\d+) GB/, "＄$1, $2GB"],
             [/(\d+) Authorized applications?/, "$1 個授權應用"],
             [/Turn (\w+) into an organization/, "變更 $1 為一個組織"],
-            [/You will no longer be able to sign into (\w+) \(all administrative privileges will be bestowed upon the owners you choose\)/, "您將不能作為帳戶登錄到$1。（所有管理權限將賦予您選擇的所有者）"],
+            [/You will no longer be able to sign into (\w+) \(all administrative privileges will be bestowed upon the owners you choose\)/, "您將不能作為帳戶登入到$1。（所有管理權限將賦予您選擇的所有者）"],
             [/Any commits credited to (\w+) will no longer be linked to this GitHub account/, "任何提交歸功於 $1 將不再連結到這個 GitHub 帳戶"],
             [/If you are using (\w+) as a personal account, you should/, "如果您正在使用 $1 作為個人帳戶，您應"],
             [/before transforming (\w+) into an organization./, "在轉化 $1 組織之前。"],
@@ -689,9 +689,9 @@ I18N.zh = {
             "is ready.": "已經就緒。",
 
             // 倉庫頁面
-            "Where should we fork this repository?": "您想把該倉庫派生到哪個角色下？",
+            "Where should we fork this repository?": "您想把該倉庫衍生到哪個角色下？",
 
-            "Code": "代碼",
+            "Code": "程式碼",
             "Pulse": "統計",
             "Graphs": "圖表",
 
@@ -728,9 +728,9 @@ I18N.zh = {
 
             "Your recently pushed branches:": "您最近推送的分支:",
             "(less than a minute ago)": "不到一分鐘前",
-            "Compare & pull request": "比較 & 拉取請求",
+            "Compare & pull request": "比較 & 合併請求",
 
-            "New pull request": "發起拉取請求",
+            "New pull request": "發起合併請求",
             "Create new file": "新建檔案",
             "Upload files": "上傳檔案",
             "Find file": "尋找檔案",
@@ -755,15 +755,15 @@ I18N.zh = {
             "Nothing to show": "暫無",
 
             "File uploading is now available": "現在可以上傳檔案了",
-            "You can now drag and drop files into your repositories.": "您可以直接拖拽檔案到該倉庫介面進行上傳。",
+            "You can now drag and drop files into your repositories.": "您可以直接拖曳檔案到該倉庫介面進行上傳。",
             "Learn more": "查看詳情",
             "Dismiss": "我知道了",
 
             // 關注者頁面
             "Watchers": "關注者",
 
-            // 點讚者頁面
-            "Stargazers": "點讚的人",
+            // 星號者頁面
+            "Stargazers": "星號的人",
             "All": "全部",
             "You know": "您關注的",
 
@@ -791,7 +791,7 @@ I18N.zh = {
             "Leave a comment": "發表評論",
             "Milestone": "里程碑",
             "Unsubscribe": "取消訂閱",
-            "Attach files by dragging & dropping,": "拖拽添加附件，",
+            "Attach files by dragging & dropping,": "拖曳添加附件，",
             "selecting them": "或選擇檔案，",
             ", or pasting from the clipboard.": "或複製貼上內容。",
             "Styling with Markdown is supported": "支援 Markdown 功能。",
@@ -799,9 +799,9 @@ I18N.zh = {
             "Comment": "提交",
 
             "Filters": "篩選",
-            "Open issues and pull requests": "開放的問題或拉取請求",
+            "Open issues and pull requests": "開放的問題或合併請求",
             "Your issues": "您提出的問題",
-            "Your pull requests": "您的拉取請求",
+            "Your pull requests": "您的合併請求",
             "Everything assigned to you": "任何關於您的",
             "Everything mentioning you": "提及您的",
             "View advanced search syntax": "查看進階搜尋語法",
@@ -840,15 +840,15 @@ I18N.zh = {
             // New collaborator 頁面
             "New collaborator": "添加合作者",
             "Collaborators": "合作者",
-            "Push access to the repository": "當前倉庫的推送權限",
-            "This repository doesn’t have any collaborators yet. Use the form below to add a collaborator.": "當前倉庫沒有合作者，您可以在下面輸入框添加合作者。",
+            "Push access to the repository": "目前倉庫的推送權限",
+            "This repository doesn’t have any collaborators yet. Use the form below to add a collaborator.": "目前倉庫沒有合作者，您可以在下面輸入框添加合作者。",
             "Search by username, full name or email address": "搜尋使用者名稱, 全名, 信箱地址：",
             "Add collaborator": "添加合作者",
 
             // Upload files 頁面
-            "Drag files here to add them to your repository": "拖拽檔案添加到當前倉庫",
-            "Drag additional files here to add them to your repository": "拖拽其他檔案添加到當前倉庫",
-            "Drop to upload your files": "拖拽上傳您的檔案",
+            "Drag files here to add them to your repository": "拖曳檔案添加到目前倉庫",
+            "Drag additional files here to add them to your repository": "拖曳其他檔案添加到目前倉庫",
+            "Drop to upload your files": "拖曳上傳您的檔案",
             "Or": "或",
             "choose your files": "選擇檔案",
             "Yowza, that’s a big file. Try again with a file smaller than 25MB.": "我勒個擦，這麼大的檔案，單檔案不得超過25MB",
@@ -865,8 +865,8 @@ I18N.zh = {
             "Commit directly to the": "提交到",
             "Create a": "建立",
             "new branch": "新分支",
-            "for this commit and start a pull request.": "為這個提交，並且發起一個拉取請求。",
-            "Learn more about pull requests.": "了解更多拉取請求。",
+            "for this commit and start a pull request.": "為這個提交，並且發起一個合併請求。",
+            "Learn more about pull requests.": "了解更多合併請求。",
 
             // Find file 頁面
             "You’ve activated the": "您已啟動",
@@ -877,12 +877,12 @@ I18N.zh = {
             "to view files,": "查看檔案",
             "to exit.": "返回。",
 
-            // 拉取請求訊息提示
+            // 合併請求訊息提示
             "Your recently pushed branches:": "你最近推送的分支:",
-            "Compare & pull request": "比較 & 拉取請求",
+            "Compare & pull request": "比較 & 合併請求",
 
             // Pull Requests 頁面
-            "There aren’t any open pull requests.": "暫無拉取請求。",
+            "There aren’t any open pull requests.": "暫無合併請求。",
             "There aren’t any open issues.": "暫無開放的問題。",
             "Use the links above to find what you’re looking for, or try": "使用上面的連結來找到您要找的，或者嘗試",
             "a new search query": "新的搜尋查詢",
@@ -899,7 +899,7 @@ I18N.zh = {
 
             "Avoid bugs by automatically running your tests.": "透過持續整合測試來避免BUG。",
             "Continuous integration can help catch bugs by running your tests automatically.": "持續整合可以透過自動執行您的測試有助於捕獲錯誤。",
-            "Merge your code with confidence using one of our continuous integration providers.": "合併您的代碼使用我們信任的持續整合供應商。",
+            "Merge your code with confidence using one of our continuous integration providers.": "合併您的程式碼使用我們信任的持續整合供應商。",
 
             "Add more commits by pushing to the": "添加更多來至於",
             "branch on": "分支的提交推送到",
@@ -911,8 +911,8 @@ I18N.zh = {
             "or view": "打開，或透過",
             "command line instructions": "命令列查看",
 
-            //// 直接提交拉取請求
-            "Open a pull request": "新建一個拉取請求",
+            //// 直接提交合併請求
+            "Open a pull request": "新建一個合併請求",
             "Create a new pull request by comparing changes across two branches. If you need to, you can also": "透過比較兩個分支的更改來建立一個新的拉請求。如果需要，還可以",
             "Able to merge.": "可被合併。",
             "These branches can be automatically merged.": "該分支可被自動合併。",
@@ -947,7 +947,7 @@ I18N.zh = {
             "GitHub Issues adds lightweight issue tracking tightly integrated with your repository. Add issues to milestones, label issues, and close & reference issues from commit messages.": "GitHub 與您的存儲庫添加輕量級問題跟蹤緊密整合的問題。添加里程碑的問題，標籤問題，並密切與參考問題提交消息。",
 
             "Merge button": "合併按鈕",
-            "When merging pull requests, you can allow merge commits, squashing, or both.": "當合併拉取請求時，您可以允許合併提交，壓縮。",
+            "When merging pull requests, you can allow merge commits, squashing, or both.": "當合併合併請求時，您可以允許合併提交，壓縮。",
             "Allow merge commits": "允許合併提交",
             "Add all commits from the head branch to the base branch with a merge commit.": "從head分支的所有提交合併提交到base分支。",
             "Allow squash merging": "允許壓縮合併",
@@ -969,7 +969,7 @@ I18N.zh = {
 
             "Danger Zone": "危險區",
             "Make this repository private": "將該倉庫設為私有倉庫",
-            "Public forks can’t be made private. Please": "派生的的倉庫，無法轉為私有，請",
+            "Public forks can’t be made private. Please": "衍生的倉庫，無法轉為私有，請",
             "duplicate the repository": "複製一份該倉庫。",
             "Make private": "轉為私有",
             "Please": "請",
@@ -982,7 +982,7 @@ I18N.zh = {
             "Once you delete a repository, there is no going back. Please be certain.": "一旦刪除您的倉庫，將無法找回。請您三思。",
 
             "Default branch": "預設分支",
-            "The default branch is considered the “base” branch in your repository, against which all pull requests and code commits are automatically made, unless you specify a different branch.": "預設分支被認為是“基地”分支在您的資料庫，對所有拉取請求和代碼的提交是自動進行的，除非您指定一個不同的分支。",
+            "The default branch is considered the “base” branch in your repository, against which all pull requests and code commits are automatically made, unless you specify a different branch.": "預設分支被認為是“基地”分支在您的資料庫，對所有合併請求和程式碼的提交是自動進行的，除非您指定一個不同的分支。",
             "Update": "更新",
             "Switch default branch": "選擇預設分支",
             "Filter branches": "搜尋分支",
@@ -1003,14 +1003,14 @@ I18N.zh = {
             // Compare changes 頁面
             "Compare changes": "變更比較",
             "Compare changes across branches, commits, tags, and more below. If you need to, you can also": "比較跨分支，提交，標籤，和更多的變更。如果您需要，也可以",
-            "compare across forks": "比較派生庫和源倉庫",
+            "compare across forks": "比較衍生庫和源倉庫",
             "base:": "基礎庫:",
             "compare:": "比較庫:",
-            "Create pull request": "建立拉取請求",
-            "Choose different branches or forks above to discuss and review changes.": "選擇不同的分支或派生來討論和查看變化。",
+            "Create pull request": "建立合併請求",
+            "Choose different branches or forks above to discuss and review changes.": "選擇不同的分支或衍生來討論和查看變化。",
             "Compare and review just about anything": "比較和審查任何檔案",
-            "Branches, tags, commit ranges, and time ranges. In the same repository and across forks.": "分支，標籤，提交範圍和時間範圍。在同一倉庫和派生的倉庫。",
-            "Example comparisons": "比較例子",
+            "Branches, tags, commit ranges, and time ranges. In the same repository and across forks.": "分支，標籤，提交範圍和時間範圍。在同一倉庫和衍生的倉庫。",
+            "Example comparisons": "比較範例",
 
             // 新建空倉庫
             "Quick setup": "快速安裝",
@@ -1020,15 +1020,15 @@ I18N.zh = {
             ", and": "，和",
             "…or create a new repository on the command line": "…或在命令列上建立一個新的倉庫",
             "…or push an existing repository from the command line": "…或從命令列中推送現有的倉庫",
-            "…or import code from another repository": "…或從另一個倉庫庫導入代碼",
+            "…or import code from another repository": "…或從另一個倉庫庫導入程式碼",
             "You can initialize this repository with code from a Subversion, Mercurial, or TFS project.": "您可以初始化此倉庫從一個 Subversion，Mercurial 或 TFS 項目。",
-            "Import code": "導入代碼",
+            "Import code": "導入程式碼",
 
             // commits 頁面
             "committed": "提交於",
-            "Merge pull request": "合併拉取請求",
+            "Merge pull request": "合併合併請求",
             "Confirm merge": "確認合併",
-            "Close pull request": "關閉拉取請求",
+            "Close pull request": "關閉合併請求",
 
             "Copy the full SHA": "複製完整的 SHA",
             "Browse the repository at this point in the history": "瀏覽該階段的歷史倉庫內容",
@@ -1087,7 +1087,7 @@ I18N.zh = {
 
             "Existing tag": "已存在的標籤",
             "Markdown supported": "Markdown 語法支援",
-            "Attach binaries by dropping them here or": "拖拽檔案到這來添加附件",
+            "Attach binaries by dropping them here or": "拖曳檔案到這來添加附件",
             "This is a pre-release": "這是一個預發布版本",
             "We’ll point out that this release is identified as non-production ready.": "我們會指定該版本為未正式發布。",
             "Update release": "更新發布",
@@ -1129,7 +1129,7 @@ I18N.zh = {
         ],
     },
 
-    "homepage": { // 未登錄首頁
+    "homepage": { // 未登入首頁
         "static": { // 靜態翻譯
             "Pick a username": "選擇一個使用者名稱",
             "Your email address": "您的郵件地址",
@@ -1157,7 +1157,7 @@ I18N.zh = {
             "GitHub fosters a fast, flexible, and collaborative development process that lets you work on your own or with others.": "GitHub 提供了一個快速，靈活和協作開發過程，讓您對自己或與他人合作。",
 
             "For everything you build": "為您打造",
-            "Host and manage your code on GitHub. You can keep your work private or share it with the world.": "主機和管理您的代碼在 GitHub 上。您可以把您的工作或私人與世界分享。",
+            "Host and manage your code on GitHub. You can keep your work private or share it with the world.": "主機和管理您的程式碼在 GitHub 上。您可以把您的工作或私人與世界分享。",
             "A better way to work": "一個更好的工作方式",
             "From hobbyists to professionals, GitHub helps developers simplify the way they build software.": "從業餘愛好者到專業人士，GitHub 幫助開發人員簡化的方式構建軟體。",
             "Millions of projects": "數以百萬計的項目",
@@ -1180,13 +1180,13 @@ I18N.zh = {
         ],
     },
 
-    "session-authentication": { // 登錄頁
+    "session-authentication": { // 登入頁
         "static": { // 靜態翻譯
-            "Sign in to GitHub": "登錄 GitHub 帳戶",
+            "Sign in to GitHub": "登入 GitHub 帳戶",
             "Username or email address": "使用者名稱/信箱",
             "Password": "密碼",
             "Forgot password?": "忘記密碼",
-            "Sign in": "登錄",
+            "Sign in": "登入",
             "New to GitHub?": "第一次來 GitHub?",
             "Create an account": "那就註冊個帳戶吧",
         },
@@ -1254,7 +1254,7 @@ I18N.zh = {
             "Finish sign up": "完成註冊",
 
             "Both plans include:": "這兩種方案包括：",
-            "Collaborative code review": "協作代碼審查",
+            "Collaborative code review": "協作程式碼審查",
             "Issue tracking": "問題跟蹤",
             "Unlimited public repositories": "無限制的公共倉庫",
             "Join any organization": "加入任何組織",
@@ -1296,15 +1296,15 @@ I18N.zh = {
         ],
     },
 
-    "stars": { // 點讚頁面
+    "stars": { // 星號頁面
         "static": { // 靜態翻譯
-            "Search starred repositories…": "搜尋點讚的倉庫…",
+            "Search starred repositories…": "搜尋星號的倉庫…",
             "Sort:": "排序:",
             "Sort opt​​ions": "排序選項",
             "Recently starred": "最近關注的",
             "Recently active": "最近活動的",
-            "Most stars": "最多讚的",
-            "Unstar": "取消點讚",
+            "Most stars": "最多星號的",
+            "Unstar": "取消星號",
 
             "All stars": "所有倉庫",
             "Your repositories": "您的倉庫",
@@ -1347,9 +1347,9 @@ I18N.zh = {
             "Filter Languages​​": "篩選語言",
         },
         "regexp": [ // 正則翻譯
-            [/([\d,]+) stars today([^B]+)[\w ]+/, "今天 $1 讚$2建立者"],
-            [/([\d,]+) stars this week([^B]+)[\w ]+/, "本週 $1 讚$2建立者"],
-            [/([\d,]+) stars this month([^B]+)[\w ]+/, "本月 $1 讚$2建立者"],
+            [/([\d,]+) stars today([^B]+)[\w ]+/, "今天 $1 星號$2建立者"],
+            [/([\d,]+) stars this week([^B]+)[\w ]+/, "本週 $1 星號$2建立者"],
+            [/([\d,]+) stars this month([^B]+)[\w ]+/, "本月 $1 星號$2建立者"],
         ],
     },
 
@@ -1407,7 +1407,7 @@ I18N.zh = {
             "repositories": "的倉庫供您搜尋",
 
             "Repositories": "倉庫",
-            "Code": "代碼",
+            "Code": "程式碼",
             "Users": "使用者",
 
             "Languages​​": "語言",
@@ -1420,10 +1420,10 @@ I18N.zh = {
             "Sort:": "排序:",
             "Sort opt​​ions": "排序選項",
             "Best match": "最佳匹配",
-            "Most stars": "最多讚",
-            "Fewest stars": "最少讚",
-            "Most forks": "最多派生",
-            "Fewest forks": "最少派生",
+            "Most stars": "最多星號",
+            "Fewest stars": "最少星號",
+            "Most forks": "最多衍生",
+            "Fewest forks": "最少衍生",
             "Recently updated": "最近更新",
             "Least recently updated": "最早更新",
 
@@ -1438,21 +1438,21 @@ I18N.zh = {
             "Everything else": "其他語言",
 
             "Repositories options": "倉庫選項",
-            "With this many stars": "指定被讚數",
-            "With this many forks": "指定派生數",
+            "With this many stars": "指定被星號數",
+            "With this many forks": "指定衍生數",
             "Of this size": "倉庫大小",
             "Pushed to": "推送於",
             "Return repositories": "搜尋結果",
             "not": "不",
             "and": "要",
             "only": "只",
-            "including forks.": "包括被派生的倉庫。",
+            "including forks.": "包括被衍生的倉庫。",
 
-            "Code options": "代碼選項",
+            "Code options": "程式碼選項",
             "With this extension": "檔案後綴",
             "Of this file size": "檔案大小",
             "In this path": "檔案路徑",
-            "Return code from forked repositories": "搜尋結果包括被派生的倉庫。",
+            "Return code from forked repositories": "搜尋結果包括被衍生的倉庫。",
 
             "Issues options": "問題選項",
             "In the state": "問題狀態",
@@ -1478,18 +1478,18 @@ I18N.zh = {
     },
 
 
-    "gist": { // 代碼片段頁面
+    "gist": { // 程式碼片段頁面
         "static": { // 靜態翻譯
-            "Search…": "搜尋代碼片段…",
+            "Search…": "搜尋程式碼片段…",
             "All gists": "所有片段",
             "New gist": "新建片段",
             "Your gists": "您的片段",
-            "Starred gists": "已讚片段",
+            "Starred gists": "已星號片段",
             "Your GitHub profile": "設定",
 
             "View profile and more": "查看更多訊息",
             "See all of your gists": "查看您的所有片段",
-            "Instantly share code, notes, and snippets.": "即時分享您的代碼，筆記，片段，以及靈感。",
+            "Instantly share code, notes, and snippets.": "即時分享您的程式碼，筆記，片段，以及靈感。",
             "Gist description…": "片段描述",
 
             "Filename including extension…": "檔案名 (包括副檔名)",
@@ -1517,26 +1517,26 @@ I18N.zh = {
             "Public & Secret": "公共 & 私有",
             "Public only": "僅公共",
             "Secret only": "僅私有",
-            "forked from": "派生自",
+            "forked from": "衍生自",
             "Created": "建立於",
             "View": "查看",
             "Newer": "新的",
             "Older": "舊的",
 
-            // View 代碼 頁面
+            // View 程式碼 頁面
             "Edit": "編輯",
             "Delete": "刪除",
-            "Star": "點讚",
-            "Unstar": "取消點讚",
+            "Star": "星號",
+            "Unstar": "取消星號",
             "User actions": "使用者操作",
             "Report abuse": "舉報該使用者",
 
-            "Code": "代碼",
+            "Code": "程式碼",
             "Revisions": "修訂",
-            "Stars": "被讚",
-            "Forks": "派生",
+            "Stars": "被星號",
+            "Forks": "衍生",
 
-            // 代碼頁面
+            // 程式碼頁面
             "What would you like to do?": "您想做什麼？",
             "Embed this gist in your website.": "Embed 可嵌入到您的網頁中。",
             "Copy sharable URL for this gist.": "複製 URL 共享這個片段。",
@@ -1556,22 +1556,22 @@ I18N.zh = {
             "created": "建立",
             "this gist": "該片段於",
 
-            // 編輯代碼頁面
+            // 編輯程式碼頁面
             "Editing": "編輯",
             "Make secret": "轉為私有",
             "Cancel": "取消",
             "Update public gist": "更新片段",
 
-            // 已讚頁面
-            "Starred": "讚了",
-            "You don’t have any starred gists yet.": "您還沒有讚過任何片段。",
+            // 已星號頁面
+            "Starred": "星號了",
+            "You don’t have any starred gists yet.": "您還沒有星號過任何片段。",
         },
         "regexp": [ // 正則翻譯
             [/View ([^ ]+) on GitHub/, "查看 $1 的 GitHub"],
             [/(\d+) files?/, "$1 檔案"],
-            [/(\d+) forks?/, "$1 派生"],
+            [/(\d+) forks?/, "$1 衍生"],
             [/(\d+) comments?/, "$1 評論"],
-            [/(\d+) stars?/, "$1 讚"],
+            [/(\d+) stars?/, "$1 星號"],
             [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，儲存 $1 到您的電腦。"],
         ],
     },
