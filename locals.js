@@ -63,7 +63,8 @@ I18N.zh = {
             "committed on": "提交於",
             "Latest commit": "最後一次提交為",
             "Pull request": "合併請求",
-            "branch.": "分支。"
+            "branch.": "分支。",
+            "Developer Program Member": "開發計畫會員",
 
             // 未登入部分
             "Personal": "個人",
@@ -74,7 +75,7 @@ I18N.zh = {
             "Sign in": "登入",
             "Sign up": "註冊",
 
-            "Search GitHub": "GitHub 一下，你就知道",
+            "Search GitHub": "搜尋 GitHub",
             "This repository": "目前倉庫",
             "Search": "搜尋",
 
@@ -347,7 +348,7 @@ I18N.zh = {
             "F": "週五",
 
             "Includes contributions from private repositories you can access.": "您可以訪問包括私人倉庫。",
-            "Summary of pull requests, issues opened, and commits.": "包括 合併請求, 提問, 提交.",
+            "Summary of pull requests, issues opened, and commits.": "包括 合併請求、提問、提交。",
             "Learn how we count contributions": "您想知道如何計算貢獻的嗎",
             "Less": "少",
             "More": "多",
