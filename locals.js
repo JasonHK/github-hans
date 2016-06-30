@@ -60,7 +60,8 @@ I18N.zh = {
             "Preview changes": "預覽變更",
             "Loading preview...": "讀取預覽中...",
             "or cancel": "或者取消",
-            
+            "There are no changes to show.", "沒有變更可供顯示。",
+
             "forked from": "衍生於",
             "This branch is ": "這個分支處於",
             "ahead of": "還要前面於",
@@ -749,7 +750,7 @@ I18N.zh = {
             "Compare & pull request": "比較 & 合併請求",
 
             "Welcome to Pull Requests!": "歡迎來到合併請求！",
-            
+
             "New pull request": "發起合併請求",
             "Create new file": "新增檔案",
             "Upload files": "上傳檔案",
