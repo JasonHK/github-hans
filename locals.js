@@ -17,7 +17,7 @@ I18N.conf = {
      * 搜尋頁面 /search
      * 趨勢頁面 /trending
      * 展示頁面 /showcases
-     * 導入倉庫 /new/import
+     * 匯入倉庫 /new/import
      *
      * 未登入首頁 /
      */
@@ -52,6 +52,18 @@ I18N.zh = {
 
     "pubilc": { // 公共區域翻譯
         "static": { // 靜態翻譯
+
+            "Raw": "原生",
+            "Blame": "比對",
+            "lines": "行數",
+
+            "forked from": "衍生於",
+            "This branch is": "這個分支處於",
+            "ahead of": "還要前面於",
+            "committed on": "提交於",
+            "Latest commit": "最後一次提交為",
+            "Pull request": "合併請求",
+
             // 未登入部分
             "Personal": "個人",
             "Open source": "開源",
@@ -73,13 +85,13 @@ I18N.zh = {
 
             "You have no unread notifications": "您沒有未讀通知",
             "You have unread notifications": "您有未讀通知",
-            "Create new…": "新建…",
+            "Create new…": "新增…",
             "View profile and more": "查看更多訊息",
 
-            "New repository": "新建倉庫",
-            "New organization": "新建組織",
-            "Import repository": "導入倉庫",
-            "New issue": "新建問題",
+            "New repository": "新增倉庫",
+            "New organization": "新增組織",
+            "Import repository": "匯入倉庫",
+            "New issue": "新增問題",
 
             "Signed in as": "您好",
             "Your profile": "您的首頁",
@@ -260,7 +272,7 @@ I18N.zh = {
             "created repository": "建立了倉庫",
             "opened pull request": "發起了合併請求",
             "commented on pull request": "評論了合併請求",
-            "opened issue": "新建問題",
+            "opened issue": "新增問題",
             "close issue": "關閉問題",
             "added": "添加了",
             "to": "到",
@@ -367,7 +379,7 @@ I18N.zh = {
             "created repository": "建立了倉庫",
             "opened pull request": "發起了合併請求",
             "commented on pull request": "評論了合併請求",
-            "opened issue": "新建問題",
+            "opened issue": "新增問題",
             "close issue": "關閉問題",
             "added": "添加了",
             "to": "到",
@@ -384,7 +396,7 @@ I18N.zh = {
             "Sources": "原始碼",
             "Forks": "衍生",
             "Mirrors": "鏡像",
-            "New": "新建",
+            "New": "新增",
 
             "Block or report": "阻止或舉報",
             "Learn more about blocking a user.": "查看詳細的阻止使用者訊息。",
@@ -620,7 +632,7 @@ I18N.zh = {
         ],
     },
 
-    "page-new-repo": { // 新建倉庫
+    "page-new-repo": { // 新增倉庫
         "static": { // 靜態翻譯
             "Create a new repository": "建立一個新的倉庫",
             "A repository contains all the files for your project, including the revision history.": "倉庫包含項目中的所有檔案，包括修訂歷史記錄。",
@@ -637,7 +649,7 @@ I18N.zh = {
             "This will let you immediately clone the repository to your computer. Skip this step if you're importing an existing repository.": "這將讓您可以立刻複製該倉庫到您的電腦。如果您要提交已有的倉庫，請忽略這個選項。",
             "Add .gitignore:": "添加 .gitignore 檔案",
             "Filter ignores…": "篩選忽略檔案…",
-            "Add a license:": "添加發布許可",
+            "Add a license:": "添加釋出許可",
             "Filter licenses…": "篩選許可…",
             "None": "無",
             "Need help picking a license? We’ve built a site just for you.": "需要幫您挑選一個許可嗎？我們為您供了參考頁面。",
@@ -648,11 +660,11 @@ I18N.zh = {
         ],
     },
 
-    "new/import": { // 導入倉庫
+    "new/import": { // 匯入倉庫
         "static": { // 靜態翻譯
             // 第一頁
-            "Import your project to GitHub": "導入您的項目到 GitHub",
-            "Import all the files, including the revision history, from another version control system.": "導入的所有檔案，包括修訂歷史記錄，從另一個版本控制系統。",
+            "Import your project to GitHub": "匯入您的項目到 GitHub",
+            "Import all the files, including the revision history, from another version control system.": "匯入的所有檔案，包括修訂歷史記錄，從另一個版本控制系統。",
             "Your old repository’s clone URL": "你的老倉庫 URL 地址",
             "Learn more about the types of": "倉庫更多類型的幫助",
             "supported VCS": "支援 VCS",
@@ -664,14 +676,14 @@ I18N.zh = {
             ". In order to make this repository private, you’ll need to": "如果想使這個倉庫轉為私有的，你需要",
             "upgrade your account": "升級帳戶",
             "Cancel": "取消",
-            "Begin import": "開始導入",
-            "Preparing import…": "準備導入…",
+            "Begin import": "開始匯入",
+            "Preparing import…": "準備匯入…",
         },
         "regexp": [ // 正則翻譯
         ],
     },
 
-    "page-create-org": { // 新建組織
+    "page-create-org": { // 新增組織
         "static": { // 靜態翻譯
         },
         "regexp": [ // 正則翻譯
@@ -680,12 +692,12 @@ I18N.zh = {
 
     "vis-public": { // 倉庫頁
         "static": { // 靜態翻譯
-            // 導入倉庫 第二頁
+            // 匯入倉庫 第二頁
             "Preparing your new repository": "準備新的存儲庫",
-            "There is no need to keep this window open, we’ll email you when the import is done.": "沒有必要在這個視窗傻等，當導入完成時，我們會向您發送電子郵件。",
+            "There is no need to keep this window open, we’ll email you when the import is done.": "沒有必要在這個視窗傻等，當匯入完成時，我們會向您發送電子郵件。",
             "Detecting your project’s version control system…": "檢測項目的版本控制系統…",
-            "Importing commits and revision history…": "導入提交和歷史版本…",
-            "Importing complete! Your new repository": "導入完成，您的新倉庫",
+            "Importing commits and revision history…": "匯入提交和歷史版本…",
+            "Importing complete! Your new repository": "匯入完成，您的新倉庫",
             "is ready.": "已經就緒。",
 
             // 倉庫頁面
@@ -719,8 +731,8 @@ I18N.zh = {
             "commits": "次提交",
             "branch": "分支",
             "branches": "分支",
-            "release": "次發布",
-            "releases": "次發布",
+            "release": "次釋出",
+            "releases": "次釋出",
             "contributor": "個貢獻者",
             "contributors": "個貢獻者",
             "Copy to clipboard": "複製到剪下板",
@@ -731,7 +743,7 @@ I18N.zh = {
             "Compare & pull request": "比較 & 合併請求",
 
             "New pull request": "發起合併請求",
-            "Create new file": "新建檔案",
+            "Create new file": "新增檔案",
             "Upload files": "上傳檔案",
             "Find file": "尋找檔案",
             "Copy path": "複製路徑",
@@ -912,7 +924,7 @@ I18N.zh = {
             "command line instructions": "命令列查看",
 
             //// 直接提交合併請求
-            "Open a pull request": "新建一個合併請求",
+            "Open a pull request": "新增一個合併請求",
             "Create a new pull request by comparing changes across two branches. If you need to, you can also": "透過比較兩個分支的更改來建立一個新的拉請求。如果需要，還可以",
             "Able to merge.": "可被合併。",
             "These branches can be automatically merged.": "該分支可被自動合併。",
@@ -964,7 +976,7 @@ I18N.zh = {
             "Pages help article": "示範頁面幫助",
             "for more information.": "獲取更多訊息",
             "Overwrite site": "覆蓋現有站點",
-            "Replace your existing site by using our automatic page generator. Author your content in our Markdown editor, select a theme, then publish.": "透過使用我們的自動頁面生成器取代現有的網站。您可以在我們的Markdown編輯器，選擇一個主題，然後發布。",
+            "Replace your existing site by using our automatic page generator. Author your content in our Markdown editor, select a theme, then publish.": "透過使用我們的自動頁面生成器取代現有的網站。您可以在我們的Markdown編輯器，選擇一個主題，然後釋出。",
             "Launch automatic page generator": "啟動自動生成器",
 
             "Danger Zone": "危險區",
@@ -1012,7 +1024,7 @@ I18N.zh = {
             "Branches, tags, commit ranges, and time ranges. In the same repository and across forks.": "分支，標籤，提交範圍和時間範圍。在同一倉庫和衍生的倉庫。",
             "Example comparisons": "比較範例",
 
-            // 新建空倉庫
+            // 新增空倉庫
             "Quick setup": "快速安裝",
             "— if you’ve done this kind of thing before": "- 如果您以前做過這樣的事",
             "Set up in Desktop": "安裝到桌面",
@@ -1020,9 +1032,9 @@ I18N.zh = {
             ", and": "，和",
             "…or create a new repository on the command line": "…或在命令列上建立一個新的倉庫",
             "…or push an existing repository from the command line": "…或從命令列中推送現有的倉庫",
-            "…or import code from another repository": "…或從另一個倉庫庫導入程式碼",
+            "…or import code from another repository": "…或從另一個倉庫庫匯入程式碼",
             "You can initialize this repository with code from a Subversion, Mercurial, or TFS project.": "您可以初始化此倉庫從一個 Subversion，Mercurial 或 TFS 項目。",
-            "Import code": "導入程式碼",
+            "Import code": "匯入程式碼",
 
             // commits 頁面
             "committed": "提交於",
@@ -1056,29 +1068,29 @@ I18N.zh = {
             "Change default branch": "更改預設分支",
 
             // Releases 頁面
-            "Releases": "發布",
-            "Pre-release": "預發布",
+            "Releases": "釋出",
+            "Pre-release": "預釋出",
             "Downloads": "下載",
             "Notes": "說明",
-            "There aren’t any releases here": "沒有任何發布內容",
-            "Create a new release": "建立一個發布",
-            "Releases are powered by": "發布是透過在倉庫中標記",
+            "There aren’t any releases here": "沒有任何釋出內容",
+            "Create a new release": "建立一個釋出",
+            "Releases are powered by": "釋出是透過在倉庫中標記",
             "tagging specific points of history": "特定歷史版本",
-            "in a repository. They’re great for marking release points like": "，用於發布的版本類似",
+            "in a repository. They’re great for marking release points like": "，用於釋出的版本類似",
 
-            "Latest release": "最新發布",
-            "Read release notes": "閱讀發布說明",
-            "released this": "發布它",
+            "Latest release": "最新釋出",
+            "Read release notes": "閱讀釋出說明",
+            "released this": "釋出它",
             "tagged this": "標註",
 
-            "Draft a new release": "起草新版本發布",
-            "Add release notes": "添加發布說明",
-            "Edit release notes": "編輯發布說明",
-            "(No release notes)": "(沒有發布說明)",
-            "Release notes": "發布說明",
+            "Draft a new release": "起草新版本釋出",
+            "Add release notes": "添加釋出說明",
+            "Edit release notes": "編輯釋出說明",
+            "(No release notes)": "(沒有釋出說明)",
+            "Release notes": "釋出說明",
 
             "Edit tag": "修改標籤",
-            "Edit release": "修改發布",
+            "Edit release": "修改釋出",
             "Delete": "刪除",
             "Are you sure?": "您確定一定以及肯定嗎？",
             "This will delete the information for this tag.": "將刪除該標籤的所有訊息。",
@@ -1088,10 +1100,10 @@ I18N.zh = {
             "Existing tag": "已存在的標籤",
             "Markdown supported": "Markdown 語法支援",
             "Attach binaries by dropping them here or": "拖曳檔案到這來添加附件",
-            "This is a pre-release": "這是一個預發布版本",
-            "We’ll point out that this release is identified as non-production ready.": "我們會指定該版本為未正式發布。",
-            "Update release": "更新發布",
-            "Publish release": "發布版本",
+            "This is a pre-release": "這是一個預釋出版本",
+            "We’ll point out that this release is identified as non-production ready.": "我們會指定該版本為未正式釋出。",
+            "Update release": "更新釋出",
+            "Publish release": "釋出版本",
             "Save draft": "儲存草稿",
             "Saved!": "已儲存",
             "Saving draft failed. Try again?": "儲存失敗，再試一次？",
@@ -1124,7 +1136,7 @@ I18N.zh = {
             // bug [/from (.+)/, "從 $1"],
             [/wants to merge ([\d,]+) commits? into/, "需要合併 $1 次提交到"],
             [/([\d,]+) commits?/, "$1 次提交"],
-            [/to ([^\n]+)[\n\s]+since this release/, "到 $1 分支在此發布中。"],
+            [/to ([^\n]+)[\n\s]+since this release/, "到 $1 分支在此釋出中。"],
             [/· ([\d,]+) comments?/, "$1 次提交"]
         ],
     },
@@ -1482,7 +1494,7 @@ I18N.zh = {
         "static": { // 靜態翻譯
             "Search…": "搜尋程式碼片段…",
             "All gists": "所有片段",
-            "New gist": "新建片段",
+            "New gist": "新增片段",
             "Your gists": "您的片段",
             "Starred gists": "已星號片段",
             "Your GitHub profile": "設定",
