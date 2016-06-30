@@ -58,7 +58,7 @@ I18N.zh = {
             "lines": "行數",
 
             "forked from": "衍生於",
-            "This branch is": "這個分支處於",
+            "This branch is ": "這個分支處於",
             "ahead of": "還要前面於",
             "committed on": "提交於",
             "Latest commit": "最後一次提交為",
@@ -731,8 +731,8 @@ I18N.zh = {
 
             "commit": "次提交",
             "commits": "次提交",
-            "branch": "分支",
-            "branches": "分支",
+            "branch": "個分支",
+            "branches": "個分支",
             "release": "次釋出",
             "releases": "次釋出",
             "contributor": "個貢獻者",
@@ -740,10 +740,12 @@ I18N.zh = {
             "Copy to clipboard": "複製到剪下板",
             "Copied!": "複製成功!",
 
-            "Your recently pushed branches:": "您最近推送的分支:",
+            "Your recently pushed branches:": "您最近推送的分支：",
             "(less than a minute ago)": "不到一分鐘前",
             "Compare & pull request": "比較 & 合併請求",
 
+            "Welcome to Pull Requests!": "歡迎來到合併請求！",
+            
             "New pull request": "發起合併請求",
             "Create new file": "新增檔案",
             "Upload files": "上傳檔案",
