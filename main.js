@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         GitHub 汉化插件
-// @description  汉化 GitHub 界面的部分菜单及内容。
+// @name         GitHub 正體中文化
+// @description  正體中文化 GitHub 界面的部分選單和內容。
 // @copyright    2016, 楼教主 (http://www.52cik.com/)
 // @icon         https://assets-cdn.github.com/pinned-octocat.svg
 // @version      1.6.2
-// @author       楼教主
+// @author       楼教主, Yami Odymel
 // @license      MIT
 // @homepageURL  https://github.com/yamiodymel/github-hans
 // @match        http://*.github.com/*
 // @match        https://*.github.com/*
-// @require      https://yamiodymel.github.io/github-hans/locals.js
+// @require      https://raw.githubusercontent.com/YamiOdymel/github-hans/gh-pages/locals.js
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
