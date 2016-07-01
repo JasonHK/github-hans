@@ -67,6 +67,8 @@ I18N.zh = {
             "forked from": "衍生於",
             "committed on": "提交於",
 
+            "lines": "行數",
+            "sloc": "程式行數",
             "Raw": "原生",
             "Blame": "比對",
             "Pull request": "合併請求",
@@ -698,9 +700,6 @@ I18N.zh = {
 
     "vis-public": { // 倉庫頁
         "static": { // 靜態翻譯
-            "This branch is": "這個分支位於",
-            "ahead": "之後",
-            "commits behind": "提交之後於",
 
             // 匯入倉庫 第二頁
             "Preparing your new repository": "準備新的存儲庫",
