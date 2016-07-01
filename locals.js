@@ -1162,6 +1162,7 @@ I18N.zh = {
             // 倉庫頁面
             "Where should we fork this repository?": "您想把該倉庫衍生到哪個角色下？",
 
+            "private": "私人",
             "Code": "程式碼",
             "Wiki": "維基",
             "Pulse": "統計",
