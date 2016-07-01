@@ -698,13 +698,9 @@ I18N.zh = {
 
     "vis-public": { // 倉庫頁
         "static": { // 靜態翻譯
-
             "This branch is": "這個分支位於",
             "ahead": "之後",
             "commits behind": "提交之後於",
-
-
-
 
             // 匯入倉庫 第二頁
             "Preparing your new repository": "準備新的存儲庫",
@@ -719,6 +715,7 @@ I18N.zh = {
             "Latest commit": "最後一次提交為",
             "Add a README with an overview of your project.": "新增一個 README 檔案介紹你的專案。",
             "Add a README": "新增 README",
+            "private": "私人",
             "Code": "程式碼",
             "Wiki": "維基",
             "Pulse": "統計",
@@ -836,6 +833,14 @@ I18N.zh = {
             "Everything mentioning you": "提及您的",
             "View advanced search syntax": "查看進階搜尋語法",
 
+            "Set milestone": "設定里程碑",
+            "Open": "開放中",
+            "Closed": "已關閉",
+            "Nothing to show": "無可供顯示的內容",
+            "No due date": "沒有到期日",
+            "Apply labels to this issue": "套用標籤到此問題",
+            "Assign up to 10 people to this issue": "可讓十個人受理此問題",
+
             "Labels": "標籤",
             "None yet": "暫無",
             "Milestones": "里程碑",
@@ -850,6 +855,9 @@ I18N.zh = {
 
             "Filter by author": "篩選使用者",
             "Filter users": "篩選使用者名稱",
+            "Filter people": "篩選人",
+            "Nothing to preview": "沒有內容可供預覽",
+            "Clear assignees": "清除受理人",
             "Filter by label": "篩選標籤",
             "Filter labels": "篩選標籤",
             "Unlabeled": "無標籤",
@@ -881,8 +889,8 @@ I18N.zh = {
             "Drop to upload your files": "拖曳上傳您的檔案",
             "Or": "或",
             "choose your files": "選擇檔案",
-            "Yowza, that’s a big file. Try again with a file smaller than 25MB.": "天啊，這麼大的檔案，單檔案不得超過25MB",
-            "Yowza, that’s a lot of files. Try again with fewer than 100 files.": "天啊，這麼多檔案，一次不能超過100個",
+            "Yowza, that’s a big file. Try again with a file smaller than 25MB.": "我勒個擦，這麼大的檔案，單檔案不得超過25MB",
+            "Yowza, that’s a lot of files. Try again with fewer than 100 files.": "我勒個擦，這麼多檔案，一次不能超過100個",
             "This file is empty.": "這個檔案是空的",
             "Something went really wrong, and we can’t process that file.": "遇到錯誤，我們處理不了這個檔案。",
             "Uploading": "檔案上傳中",
@@ -897,6 +905,7 @@ I18N.zh = {
             "Create a": "建立",
             "new branch": "新分支",
             "Propose file change": "提交檔案變更",
+            "Create a": "建立",
             "Edit file": "編輯檔案",
             "Preview changes": "檢視變更",
             "Loading preview…": "讀取預覽中⋯",
@@ -913,6 +922,8 @@ I18N.zh = {
             "Update ": "更新",
             "branch.": "分支。",
             "for this commit and start a pull request.": "給予這個提交，並且發起一個合併請求。",
+            "Learn more about pull requests.": "了解更多合併請求。",
+            "for this commit and start a pull request.": "為這個提交，並且發起一個合併請求。",
             "Learn more about pull requests.": "了解更多合併請求。",
 
             // Find file 頁面
@@ -947,10 +958,6 @@ I18N.zh = {
             "You can always unlock this issue again in the future.": "你未來仍可隨時解鎖此問題。",
             "Lock conversation on this issue": "鎖定此問題的會話。",
             "member": "成員",
-
-            "merged commit": "以合併提交",
-            "into": "到",
-            "from": "來自",
 
             "Revert": "還原",
 
@@ -1352,6 +1359,7 @@ I18N.zh = {
             "Filter by author": "篩選使用者",
             "Filter users": "篩選使用者名稱",
             "Filter people": "篩選人",
+            "Nothing to preview": "沒有內容可供預覽",
             "Clear assignees": "清除受理人",
             "Filter by label": "篩選標籤",
             "Filter labels": "篩選標籤",
