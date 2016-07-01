@@ -1206,9 +1206,6 @@ I18N.zh = {
 
     "vis-private": { // 倉庫頁
         "static": { // 靜態翻譯
-            "This branch is": "這個分支位於",
-            "ahead": "之後",
-            "commits behind": "提交之後於",
 
             // 匯入倉庫 第二頁
             "Preparing your new repository": "準備新的存儲庫",
