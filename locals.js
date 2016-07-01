@@ -1329,6 +1329,14 @@ I18N.zh = {
             "Everything mentioning you": "提及您的",
             "View advanced search syntax": "查看進階搜尋語法",
 
+            "Set milestone": "設定里程碑",
+            "Open": "開放中",
+            "Closed": "已關閉",
+            "Nothing to show": "無可供顯示的內容",
+            "No due date": "沒有到期日",
+            "Apply labels to this issue": "套用標籤到此問題",
+            "Assign up to 10 people to this issue": "可讓十個人受理此問題",
+
             "Labels": "標籤",
             "None yet": "暫無",
             "Milestones": "里程碑",
@@ -1343,6 +1351,8 @@ I18N.zh = {
 
             "Filter by author": "篩選使用者",
             "Filter users": "篩選使用者名稱",
+            "Filter people": "篩選人",
+            "Clear assignees": "清除受理人",
             "Filter by label": "篩選標籤",
             "Filter labels": "篩選標籤",
             "Unlabeled": "無標籤",
