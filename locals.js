@@ -698,7 +698,7 @@ I18N.zh = {
             "ahead": "之後",
             "commits behind": "提交之後於",
 
-            
+
 
 
             // 匯入倉庫 第二頁
@@ -902,7 +902,7 @@ I18N.zh = {
             "No wrap": "不自動換行",
             "Soft wrap": "輕度換行",
             "Update": "更新",
-            "branch.": "分支。"
+            "branch.": "分支。",
             "for this commit and start a pull request.": "給予這個提交，並且發起一個合併請求。",
             "Learn more about pull requests.": "了解更多合併請求。",
 
@@ -1381,7 +1381,7 @@ I18N.zh = {
             "No wrap": "不自動換行",
             "Soft wrap": "輕度換行",
             "Update": "更新",
-            "branch.": "分支。"
+            "branch.": "分支。",
             "for this commit and start a pull request.": "給予這個提交，並且發起一個合併請求。",
             "Learn more about pull requests.": "了解更多合併請求。",
             "for this commit and start a pull request.": "為這個提交，並且發起一個合併請求。",
