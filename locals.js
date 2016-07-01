@@ -107,7 +107,7 @@ I18N.zh = {
             "Previous": "上一頁",
             "Next": "下一頁",
 
-            "Period:": "最近:",
+            "Period:": "最近：",
             "Filter activity": "選擇時間",
             "1 day": "一天",
             "3 days": "三天",
@@ -320,7 +320,7 @@ I18N.zh = {
             "Contribution activity": "近期貢獻訊息",
 
             "Select up to five public repositories you'd like to show.": "最多可選擇五個要顯示的公共倉庫。",
-            "Show:": "顯示:",
+            "Show:": "顯示：",
             "Your repositories": "您的倉庫",
             "Repositories you contribute to": "您貢獻過的倉庫",
             "Save pinned repositories": "儲存固定倉庫",
@@ -343,7 +343,7 @@ I18N.zh = {
             "F": "週五",
 
             "Includes contributions from private repositories you can access.": "您可以訪問包括私人倉庫。",
-            "Summary of pull requests, issues opened, and commits.": "包括 合併請求, 提問, 提交.",
+            "Summary of pull requests, issues opened, and commits.": "包括合併請求、提問、提交。",
             "Learn how we count contributions": "您想知道如何計算貢獻的嗎",
             "Less": "少",
             "More": "多",
@@ -434,7 +434,7 @@ I18N.zh = {
             "Public profile": "基本資料",
             "Profile picture": "我的頭像",
             "Upload new picture": "上傳新圖片",
-            "You can also drag and drop a picture from your computer.": "您也可以直接拖曳照片鏡像上傳.",
+            "You can also drag and drop a picture from your computer.": "您也可以直接拖曳照片鏡像上傳。",
             "Name": "暱稱",
             "Public email": "公共信箱",
             "Don’t show my email address": "不顯示我的信箱",
@@ -552,7 +552,7 @@ I18N.zh = {
 
             // Security 選單
             "Two-factor authentication": "雙重認證",
-            "Status:": "狀態:",
+            "Status:": "狀態：",
             "Off": "未開啟",
             "Set up two-factor authentication": "設定雙重認證",
             "provides another layer of security to your account.": "為您的帳戶提供了另一層安全保障。",
@@ -692,6 +692,12 @@ I18N.zh = {
 
     "vis-public": { // 倉庫頁
         "static": { // 靜態翻譯
+
+            "This branch is": "這個分支位於",
+            "ahead": "之後",
+            "commits behind": "提交之後於",
+            
+            
             // 匯入倉庫 第二頁
             "Preparing your new repository": "準備新的存儲庫",
             "There is no need to keep this window open, we’ll email you when the import is done.": "沒有必要在這個視窗傻等，當匯入完成時，我們會向您發送電子郵件。",
@@ -702,14 +708,16 @@ I18N.zh = {
 
             // 倉庫頁面
             "Where should we fork this repository?": "您想把該倉庫衍生到哪個角色下？",
-
+            "Latest commit": "最後一次提交為",
+            "Add a README with an overview of your project.": "新增一個 README 檔案介紹你的專案。",
+            "Add a README": "新增 README",
             "Code": "程式碼",
             "Wiki": "維基",
             "Pulse": "統計",
             "Graphs": "圖表",
 
             // 倉庫描述編輯
-            "No description or website provided.": "沒有提供說明和網站訊息.",
+            "No description or website provided.": "沒有提供說明和網站訊息。",
             "Edit": "編輯",
             "Description": "描述",
             "Short description of this repository": "簡短的描述下您的倉庫",
@@ -724,22 +732,22 @@ I18N.zh = {
             "Not watching": "取消關注",
             "Watching": "關注",
             "Ignoring": "忽略",
-            "Be notified when participating or @mentioned.": "僅參與交談或@我時通知我.",
-            "Be notified of all conversations.": "所有交談都通知我.",
-            "Never be notified.": "忽略任何通知.",
+            "Be notified when participating or @mentioned.": "僅參與交談或 @ 我時通知我。",
+            "Be notified of all conversations.": "所有交談都通知我。",
+            "Never be notified.": "忽略任何通知。",
 
             "commit": "次提交",
             "commits": "次提交",
-            "branch": "分支",
-            "branches": "分支",
-            "release": "次發布",
-            "releases": "次發布",
+            "branch": "個分支",
+            "branches": "個分支",
+            "release": "次釋出",
+            "releases": "次釋出",
             "contributor": "個貢獻者",
             "contributors": "個貢獻者",
             "Copy to clipboard": "複製到剪下板",
             "Copied!": "複製成功!",
 
-            "Your recently pushed branches:": "您最近推送的分支:",
+            "Your recently pushed branches:": "您最近推送的分支：",
             "(less than a minute ago)": "不到一分鐘前",
             "Compare & pull request": "比較 & 合併請求",
 
@@ -761,7 +769,7 @@ I18N.zh = {
             "Use an SSH key and passphrase from account.": "使用 SSH 密鑰和密碼訪問。",
             "Use Git or checkout with SVN using the web URL.": "使用 git 或 svn 檢出該倉庫。",
 
-            "Branch:": "分支:",
+            "Branch:": "分支：",
             "Switch branches/tags": "選擇分支或標籤",
             "Branches": "分支",
             "Tags": "標籤",
@@ -892,7 +900,7 @@ I18N.zh = {
             "to exit.": "返回。",
 
             // 合併請求訊息提示
-            "Your recently pushed branches:": "你最近推送的分支:",
+            "Your recently pushed branches:": "你最近推送的分支：",
             "Compare & pull request": "比較 & 合併請求",
 
             // Pull Requests 頁面
@@ -943,7 +951,7 @@ I18N.zh = {
             "Create new page": "建立新頁面",
             "Write": "編輯",
             "Preview": "預覽",
-            "Edit mode:": "編輯模式:",
+            "Edit mode:": "編輯模式：",
             "Edit Message": "提交訊息",
             "Save Page": "儲存頁面",
 
@@ -969,8 +977,8 @@ I18N.zh = {
             "You must select at least one option": "您至少要選擇一個選項。",
 
             "GitHub Pages": "GitHub 項目示範頁面",
-            "Your site is published at": "您的示範地址為:",
-            "Your site is ready to be published at": "您的示範地址為:",
+            "Your site is published at": "您的示範地址為：",
+            "Your site is ready to be published at": "您的示範地址為：",
             "Custom domain": "自訂域名",
             "Custom domains allow you to serve your site from a domain other than": "自訂域名也許你用其他域名訪問",
             "Update your site": "更新您的站點",
@@ -1024,8 +1032,8 @@ I18N.zh = {
             "Compare changes": "變更比較",
             "Compare changes across branches, commits, tags, and more below. If you need to, you can also": "比較跨分支，提交，標籤，和更多的變更。如果您需要，也可以",
             "compare across forks": "比較衍生庫和源倉庫",
-            "base:": "基礎庫:",
-            "compare:": "比較庫:",
+            "base:": "基礎庫：",
+            "compare:": "比較庫：",
             "Create pull request": "建立合併請求",
             "Choose different branches or forks above to discuss and review changes.": "選擇不同的分支或衍生來討論和查看變化。",
             "Compare and review just about anything": "比較和審查任何檔案",
@@ -1126,7 +1134,7 @@ I18N.zh = {
             "Members": "成員",
 
             "Contributions to master, excluding merge commits": "對主分支的貢獻，不包括合併提交",
-            "Contributions:": "貢獻者:",
+            "Contributions:": "貢獻者：",
             "Filter contributions": "篩選貢獻者",
             "Additions": "添加數量",
             "Deletions": "刪除數量",
@@ -1151,6 +1159,10 @@ I18N.zh = {
 
     "vis-private": { // 倉庫頁
         "static": { // 靜態翻譯
+            "This branch is": "這個分支位於",
+            "ahead": "之後",
+            "commits behind": "提交之後於",
+            
             // 匯入倉庫 第二頁
             "Preparing your new repository": "準備新的存儲庫",
             "There is no need to keep this window open, we’ll email you when the import is done.": "沒有必要在這個視窗傻等，當匯入完成時，我們會向您發送電子郵件。",
@@ -1161,7 +1173,9 @@ I18N.zh = {
 
             // 倉庫頁面
             "Where should we fork this repository?": "您想把該倉庫衍生到哪個角色下？",
-
+            "Latest commit": "最後一次提交為",
+            "Add a README with an overview of your project.": "新增一個 README 檔案介紹你的專案。",
+            "Add a README": "新增 README",
             "private": "私人",
             "Code": "程式碼",
             "Wiki": "維基",
@@ -1169,7 +1183,7 @@ I18N.zh = {
             "Graphs": "圖表",
 
             // 倉庫描述編輯
-            "No description or website provided.": "沒有提供說明和網站訊息.",
+            "No description or website provided.": "沒有提供說明和網站訊息。",
             "Edit": "編輯",
             "Description": "描述",
             "Short description of this repository": "簡短的描述下您的倉庫",
@@ -1184,22 +1198,22 @@ I18N.zh = {
             "Not watching": "取消關注",
             "Watching": "關注",
             "Ignoring": "忽略",
-            "Be notified when participating or @mentioned.": "僅參與交談或@我時通知我.",
-            "Be notified of all conversations.": "所有交談都通知我.",
-            "Never be notified.": "忽略任何通知.",
+            "Be notified when participating or @mentioned.": "僅參與交談或 @ 我時通知我。",
+            "Be notified of all conversations.": "所有交談都通知我。",
+            "Never be notified.": "忽略任何通知。",
 
             "commit": "次提交",
             "commits": "次提交",
-            "branch": "分支",
-            "branches": "分支",
-            "release": "次發布",
-            "releases": "次發布",
+            "branch": "個分支",
+            "branches": "個分支",
+            "release": "次釋出",
+            "releases": "次釋出",
             "contributor": "個貢獻者",
             "contributors": "個貢獻者",
             "Copy to clipboard": "複製到剪下板",
             "Copied!": "複製成功!",
 
-            "Your recently pushed branches:": "您最近推送的分支:",
+            "Your recently pushed branches:": "您最近推送的分支：",
             "(less than a minute ago)": "不到一分鐘前",
             "Compare & pull request": "比較 & 合併請求",
 
@@ -1221,7 +1235,7 @@ I18N.zh = {
             "Use an SSH key and passphrase from account.": "使用 SSH 密鑰和密碼訪問。",
             "Use Git or checkout with SVN using the web URL.": "使用 git 或 svn 檢出該倉庫。",
 
-            "Branch:": "分支:",
+            "Branch:": "分支：",
             "Switch branches/tags": "選擇分支或標籤",
             "Branches": "分支",
             "Tags": "標籤",
@@ -1352,7 +1366,7 @@ I18N.zh = {
             "to exit.": "返回。",
 
             // 合併請求訊息提示
-            "Your recently pushed branches:": "你最近推送的分支:",
+            "Your recently pushed branches:": "你最近推送的分支：",
             "Compare & pull request": "比較 & 合併請求",
 
             // Pull Requests 頁面
@@ -1403,7 +1417,7 @@ I18N.zh = {
             "Create new page": "建立新頁面",
             "Write": "編輯",
             "Preview": "預覽",
-            "Edit mode:": "編輯模式:",
+            "Edit mode:": "編輯模式：",
             "Edit Message": "提交訊息",
             "Save Page": "儲存頁面",
 
@@ -1429,8 +1443,8 @@ I18N.zh = {
             "You must select at least one option": "您至少要選擇一個選項。",
 
             "GitHub Pages": "GitHub 項目示範頁面",
-            "Your site is published at": "您的示範地址為:",
-            "Your site is ready to be published at": "您的示範地址為:",
+            "Your site is published at": "您的示範地址為：",
+            "Your site is ready to be published at": "您的示範地址為：",
             "Custom domain": "自訂域名",
             "Custom domains allow you to serve your site from a domain other than": "自訂域名也許你用其他域名訪問",
             "Update your site": "更新您的站點",
@@ -1484,8 +1498,8 @@ I18N.zh = {
             "Compare changes": "變更比較",
             "Compare changes across branches, commits, tags, and more below. If you need to, you can also": "比較跨分支，提交，標籤，和更多的變更。如果您需要，也可以",
             "compare across forks": "比較衍生庫和源倉庫",
-            "base:": "基礎庫:",
-            "compare:": "比較庫:",
+            "base:": "基礎庫：",
+            "compare:": "比較庫：",
             "Create pull request": "建立合併請求",
             "Choose different branches or forks above to discuss and review changes.": "選擇不同的分支或衍生來討論和查看變化。",
             "Compare and review just about anything": "比較和審查任何檔案",
@@ -1586,7 +1600,7 @@ I18N.zh = {
             "Members": "成員",
 
             "Contributions to master, excluding merge commits": "對主分支的貢獻，不包括合併提交",
-            "Contributions:": "貢獻者:",
+            "Contributions:": "貢獻者：",
             "Filter contributions": "篩選貢獻者",
             "Additions": "添加數量",
             "Deletions": "刪除數量",
@@ -1679,11 +1693,11 @@ I18N.zh = {
             "Join GitHub": "加入 GitHub",
             "The best way to design, build, and ship software.": "最優的方式來設計、構建和存儲軟體",
 
-            "Step 1:": "第一步:",
+            "Step 1:": "第一步：",
             "Set up a personal account": "建立個人帳戶",
-            "Step 2:": "第二步:",
+            "Step 2:": "第二步：",
             "Choose your plan": "選擇您的方案",
-            "Step 3:": "第三步:",
+            "Step 3:": "第三步：",
             "Go to your dashboard": "去到您的首頁",
 
             // Step 1:
@@ -1716,7 +1730,7 @@ I18N.zh = {
             "Unlimited private repositories": "無限的私人倉庫",
             "for": "需",
             "$7/month.": "$7/月",
-            "¥46.06/month.": "¥46.06/月.",
+            "¥46.06/month.": "¥46.06/月。",
             "(view in CNY)": "(顯示人民幣價格)",
             "(view in USD)": "(顯示美元價格)",
             "Don’t worry, you can cancel or upgrade at any time.": "別擔心，你可以隨時升級或取消這個方案。",
@@ -1779,7 +1793,7 @@ I18N.zh = {
     "stars": { // 點讚頁面
         "static": { // 靜態翻譯
             "Search starred repositories…": "搜尋點讚的倉庫…",
-            "Sort:": "排序:",
+            "Sort:": "排序：",
             "Sort options": "排序選項",
             "Recently starred": "最近關注的",
             "Recently active": "最近活動的",
@@ -1812,7 +1826,7 @@ I18N.zh = {
             "Repositories": "倉庫",
             "Developers": "開發者",
 
-            "Trending:": "趨勢:",
+            "Trending:": "趨勢：",
             "Adjust time span": "調整的時間跨度",
             "today": "今天",
             "this week": "本週",
@@ -1821,7 +1835,7 @@ I18N.zh = {
             "All languages": "所有語言",
             "Unknown languages": "未知語言",
 
-            "Other:": "其他:",
+            "Other:": "其他：",
             "Languages": "語言",
             "Other Languages": "其他語言",
             "Filter Languages": "篩選語言",
@@ -1897,7 +1911,7 @@ I18N.zh = {
             "You could try an": "您可以試一試",
             "advanced search": "進階搜尋",
 
-            "Sort:": "排序:",
+            "Sort:": "排序：",
             "Sort options": "排序選項",
             "Best match": "最佳匹配",
             "Most stars": "最多讚",
@@ -1986,13 +2000,13 @@ I18N.zh = {
             "Create public gist": "建立公共片段",
 
             // All gists 頁面
-            "Sort:": "排序:",
+            "Sort:": "排序：",
             "Sort options": "排序選項",
             "Recently created": "最近建立的",
             "Least recently created": "最早建立的",
             "Recently updated": "最近更新的",
             "Least recently updated": "最早更新的",
-            "Filter:": "篩選:",
+            "Filter:": "篩選：",
             "Filter options": "篩選選項",
             "Public & Secret": "公共 & 私人",
             "Public only": "僅公共",
