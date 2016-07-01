@@ -4,7 +4,7 @@ I18N.conf = {
     /**
      * 要翻譯的頁面正則
      */
-    rePageClass: /\b(vis-public|page-(dashboard|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
+    rePageClass: /\b(vis-public|page-(dashboard|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth|issues)\b/,
 
     /**
      * 匹配 pathname 頁面的正則
@@ -64,9 +64,12 @@ I18N.zh = {
             "Search GitHub": "搜尋 GitHub",
             "This repository": "目前倉庫",
             "Search": "搜尋",
+            "forked from": "衍生於",
+            "committed on": "提交於",
 
             "Raw": "原生",
             "Blame": "比對",
+            "Pull request": "合併請求",
             "Pull Requests": "合併請求",
             "Pull requests": "合併請求",
             "Issues": "問題",
@@ -82,6 +85,10 @@ I18N.zh = {
             "New organization": "建立組織",
             "Import repository": "匯入倉庫",
             "New issue": "建立問題",
+
+            "Welcome to Issues!": "歡迎來到問題頁面！",
+            "Filters": "過濾器",
+
 
             "Signed in as": "您好",
             "Your profile": "您的首頁",
@@ -783,6 +790,7 @@ I18N.zh = {
             "and removed": "並移除了",
             "label": "標籤",
             "labels": "標籤",
+
             "self-assigned this": "自己受理了該問題",
             "edited": "編輯的",
             "added this to the": "添加到",
