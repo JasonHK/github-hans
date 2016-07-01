@@ -4,7 +4,7 @@ I18N.conf = {
     /**
      * 要翻譯的頁面正則
      */
-    rePageClass: /\b(vis-public|page-(dashboard|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth|issues)\b/,
+    rePageClass: /\b(vis-public|vis-private|page-(dashboard|profile|account|new-repo|create-org)|homepage|signup|session-authentication|oauth)\b/,
 
     /**
      * 匹配 pathname 頁面的正則
