@@ -946,6 +946,7 @@ I18N.zh = {
             "a new search query": "新的搜尋查詢",
             ". The Filters menu is also super helpful for quickly finding issues most relevant to you.": "。搜尋欄也是快速找到問題最相關的您超級有幫助的。",
 
+            "This issue was closed.": "這個問題已經關閉。",
             "Conversation": "交談",
             "Files changed": "更改的檔案",
             "commented": "評論於",
@@ -1453,6 +1454,7 @@ I18N.zh = {
             "a new search query": "新的搜尋查詢",
             ". The Filters menu is also super helpful for quickly finding issues most relevant to you.": "。搜尋欄也是快速找到問題最相關的您超級有幫助的。",
 
+            "This issue was closed.": "這個問題已經關閉。",
             "Conversation": "交談",
             "Files changed": "更改的檔案",
             "commented": "評論於",
