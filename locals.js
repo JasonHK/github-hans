@@ -793,6 +793,17 @@ I18N.zh = {
             "You know": "您關注的",
 
             // issues 頁面
+            "No labels!": "沒有標籤！",
+            "There aren’t any labels for this repository quite yet. Click on the "New Label" button above to create one.": "這個倉庫沒有任何標籤。按下上方的「新增標籤」來建立一個新的。",
+            "New label": "新標籤",
+            "Create label": "建立標籤",
+            "New label name...": "新標籤的名稱⋯",
+            "open issues": "個開放的問題",
+            "Alphabetically": "英文字母",
+            "Reverse alphabetically": "反序英文字母",
+            "Most issues": "最多問題的",
+            "Fewest issues": "最少問題的",
+            
             "opened this": "打開這個",
             "Issue": "問題",
             "added a commit that closed this issue": "在提交時關閉了這個問題",
@@ -1299,6 +1310,17 @@ I18N.zh = {
             "You know": "您關注的",
 
             // issues 頁面
+            "No labels!": "沒有標籤！",
+            "There aren’t any labels for this repository quite yet. Click on the "New Label" button above to create one.": "這個倉庫沒有任何標籤。按下上方的「新增標籤」來建立一個新的。",
+            "New label": "新標籤",
+            "Create label": "建立標籤",
+            "New label name...": "新標籤的名稱⋯",
+            "open issues": "個開放的問題",
+            "Alphabetically": "英文字母",
+            "Reverse alphabetically": "反序英文字母",
+            "Most issues": "最多問題的",
+            "Fewest issues": "最少問題的",
+
             "opened this": "打開這個",
             "Issue": "問題",
             "added a commit that closed this issue": "在提交時關閉了這個問題",
