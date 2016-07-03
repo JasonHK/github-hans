@@ -805,7 +805,7 @@ I18N.zh = {
             "Fewest issues": "最少問題的",
 
             "New milestone": "新里程碑",
-            "Create a milestone": "建立一個里程碑"
+            "Create a milestone": "建立一個里程碑",
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
             "Recently updated": "最近更新",
@@ -1334,7 +1334,7 @@ I18N.zh = {
             "Fewest issues": "最少問題的",
 
             "New milestone": "新里程碑",
-            "Create a milestone": "建立一個里程碑"
+            "Create a milestone": "建立一個里程碑",
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
             "Recently updated": "最近更新",
