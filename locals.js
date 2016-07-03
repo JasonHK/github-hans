@@ -838,6 +838,7 @@ I18N.zh = {
             "open": "開放中",
             "closed": "已關閉",
             "opened": "開放",
+            "Close": "關閉",
 
             "ProTip!": "進階提示！",
             "on any issue or pull request to go back to the pull request listing page.": "於任何的問題或是合併請求來回到合併請求清單頁面。",
@@ -1402,10 +1403,11 @@ I18N.zh = {
             "open": "開放中",
             "closed": "已關閉",
             "opened": "開放",
+            "Close": "關閉",
 
             "ProTip!": "進階提示！",
             "on any issue or pull request to go back to the pull request listing page.": "於任何的問題或是合併請求來回到合併請求清單頁面。",
-            
+
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
             "Recently updated": "最近更新",
