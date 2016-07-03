@@ -842,6 +842,13 @@ I18N.zh = {
 
             "ProTip!": "進階提示！",
             "on any issue or pull request to go back to the pull request listing page.": "於任何的問題或是合併請求來回到合併請求清單頁面。",
+            "Mix and match filters to narrow down what you’re looking for.": "混入一些過濾字串於搜尋中能更深入找到你要的。",
+            "Notify someone on an issue with a mention, like:": "欲要通知某人於問題中，請使用：",
+            "What’s not been updated in a month:": "有什麼於一個月內沒更新的：",
+            "Check team mentions with": "看看有什麼提到團隊的",
+            "will show everything without a milestone.": "會顯示一切不關里程碑的內容。",
+
+            
 
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
@@ -1407,6 +1414,11 @@ I18N.zh = {
 
             "ProTip!": "進階提示！",
             "on any issue or pull request to go back to the pull request listing page.": "於任何的問題或是合併請求來回到合併請求清單頁面。",
+            "Mix and match filters to narrow down what you’re looking for.": "混入一些過濾字串於搜尋中能更深入找到你要的。",
+            "Notify someone on an issue with a mention, like:": "欲要通知某人於問題中，請使用：",
+            "What’s not been updated in a month:": "有什麼於一個月內沒更新的：",
+            "Check team mentions with": "看看有什麼提到團隊的",
+            "will show everything without a milestone.": "會顯示一切不關里程碑的內容。",
 
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
