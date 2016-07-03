@@ -350,6 +350,7 @@ I18N.zh = {
             "W": "週三",
             "F": "週五",
 
+
             "Includes contributions from private repositories you can access.": "您可以訪問包括私人倉庫。",
             "Summary of pull requests, issues opened, and commits.": "包括合併請求、提問、提交。",
             "Learn how we count contributions": "您想知道如何計算貢獻的嗎",
@@ -831,6 +832,15 @@ I18N.zh = {
             "Create a new milestone to help organize your issues and pull requests. Learn more about milestones and issues.": "建立一個新的里程碑協助你管理相關問題和合併請求。了解更多關於里程碑和問題。",
             "Create a new milestone to help organize your issues and pull requests. Learn more about": "建立一個新的里程碑協助你管理相關問題和合併請求。了解更多關於",
             "milestones and issues.": "里程碑和問題。",
+
+            "Last updated": "最後一次更新",
+            "complete": "完成",
+            "open": "開放中",
+            "closed": "已關閉",
+            "opened": "開放",
+
+            "ProTip!": "進階提示！",
+            "on any issue or pull request to go back to the pull request listing page.": "於任何的問題或是合併請求來回到合併請求清單頁面。",
 
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
@@ -1387,6 +1397,15 @@ I18N.zh = {
             "Create a new milestone to help organize your issues and pull requests. Learn more about": "建立一個新的里程碑協助你管理相關問題和合併請求。了解更多關於",
             "milestones and issues.": "里程碑和問題。",
 
+            "Last updated": "最後一次更新",
+            "complete": "完成",
+            "open": "開放中",
+            "closed": "已關閉",
+            "opened": "開放",
+
+            "ProTip!": "進階提示！",
+            "on any issue or pull request to go back to the pull request listing page.": "於任何的問題或是合併請求來回到合併請求清單頁面。",
+            
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
             "Recently updated": "最近更新",
