@@ -794,7 +794,7 @@ I18N.zh = {
 
             // issues 頁面
             "No labels!": "沒有標籤！",
-            "There aren’t any labels for this repository quite yet. Click on the "New Label" button above to create one.": "這個倉庫沒有任何標籤。按下上方的「新增標籤」來建立一個新的。",
+            "There aren’t any labels for this repository quite yet. Click on the \"New Label\" button above to create one.": "這個倉庫沒有任何標籤。按下上方的「新增標籤」來建立一個新的。",
             "New label": "新標籤",
             "Create label": "建立標籤",
             "New label name...": "新標籤的名稱⋯",
@@ -1311,7 +1311,7 @@ I18N.zh = {
 
             // issues 頁面
             "No labels!": "沒有標籤！",
-            "There aren’t any labels for this repository quite yet. Click on the "New Label" button above to create one.": "這個倉庫沒有任何標籤。按下上方的「新增標籤」來建立一個新的。",
+            "There aren’t any labels for this repository quite yet. Click on the \"New Label\" button above to create one.": "這個倉庫沒有任何標籤。按下上方的「新增標籤」來建立一個新的。",
             "New label": "新標籤",
             "Create label": "建立標籤",
             "New label name...": "新標籤的名稱⋯",
