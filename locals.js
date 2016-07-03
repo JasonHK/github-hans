@@ -809,6 +809,8 @@ I18N.zh = {
             "Create a Milestone": "建立一個里程碑",
             "Create milestone": "建立里程碑",
             "Due Date (optional)": "到期日（可選）",
+            "Due by": "到期於",
+            "less than": "小於",
             "clear": "清除",
             "Jan": "1月",
             "Feb": "2月",
@@ -848,7 +850,7 @@ I18N.zh = {
             "Check team mentions with": "看看有什麼提到團隊的",
             "will show everything without a milestone.": "會顯示一切不關里程碑的內容。",
 
-            
+
 
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
@@ -1381,6 +1383,8 @@ I18N.zh = {
             "Create a Milestone": "建立一個里程碑",
             "Create milestone": "建立里程碑",
             "Due Date (optional)": "到期日（可選）",
+            "Due by": "到期於",
+            "less than": "小於",
             "clear": "清除",
             "Jan": "1月",
             "Feb": "2月",
