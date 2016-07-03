@@ -820,7 +820,7 @@ I18N.zh = {
             "Sep": "9月",
             "Oct": "10月",
             "Nov": "11月",
-            "Dec": "12月"
+            "Dec": "12月",
             "Mon": "一",
             "Tue": "二",
             "Web": "三",
@@ -831,7 +831,7 @@ I18N.zh = {
             "Create a new milestone to help organize your issues and pull requests. Learn more about milestones and issues.": "建立一個新的里程碑協助你管理相關問題和合併請求。了解更多關於里程碑和問題。",
             "Create a new milestone to help organize your issues and pull requests. Learn more about": "建立一個新的里程碑協助你管理相關問題和合併請求。了解更多關於",
             "milestones and issues.": "里程碑和問題。",
-            
+
             "You haven’t created any Milestones.": "你還沒有建立任何里程碑。",
             "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "透過里程碑來替你的問題建立一個合集，或者是用以釋出正式版的問題統整。",
             "Recently updated": "最近更新",
@@ -1375,7 +1375,7 @@ I18N.zh = {
             "Sep": "9月",
             "Oct": "10月",
             "Nov": "11月",
-            "Dec": "12月"
+            "Dec": "12月",
             "Mon": "一",
             "Tue": "二",
             "Web": "三",
