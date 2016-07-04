@@ -975,7 +975,8 @@ I18N.zh = {
             "Create a": "建立",
             "new branch": "新分支",
             "Propose file change": "提交檔案變更",
-            "Create a": "建立",
+            "Commit new file": "提交新檔案",
+            "Edit new file": "編輯新檔案",
             "Edit file": "編輯檔案",
             "Preview changes": "檢視變更",
             "Loading preview…": "讀取預覽中⋯",
@@ -992,8 +993,6 @@ I18N.zh = {
             "Update ": "更新",
             "branch.": "分支。",
             "for this commit and start a pull request.": "給予這個提交，並且發起一個合併請求。",
-            "Learn more about pull requests.": "了解更多合併請求。",
-            "for this commit and start a pull request.": "為這個提交，並且發起一個合併請求。",
             "Learn more about pull requests.": "了解更多合併請求。",
 
             // Find file 頁面
@@ -1549,7 +1548,8 @@ I18N.zh = {
             "Create a": "建立",
             "new branch": "新分支",
             "Propose file change": "提交檔案變更",
-            "Create a": "建立",
+            "Commit new file": "提交新檔案",
+            "Edit new file": "編輯新檔案",
             "Edit file": "編輯檔案",
             "Preview changes": "檢視變更",
             "Loading preview…": "讀取預覽中⋯",
@@ -1566,8 +1566,6 @@ I18N.zh = {
             "Update ": "更新",
             "branch.": "分支。",
             "for this commit and start a pull request.": "給予這個提交，並且發起一個合併請求。",
-            "Learn more about pull requests.": "了解更多合併請求。",
-            "for this commit and start a pull request.": "為這個提交，並且發起一個合併請求。",
             "Learn more about pull requests.": "了解更多合併請求。",
 
             // Find file 頁面
