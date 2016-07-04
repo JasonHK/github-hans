@@ -81,7 +81,7 @@ I18N.zh = {
             "You have no unread notifications": "您沒有未讀通知",
             "You have unread notifications": "您有未讀通知",
             "Create new…": "建立…",
-            "View profile and more": "查看更多訊息",
+            "View profile and more": "檢視更多訊息",
 
             "New repository": "建立倉庫",
             "New organization": "建立組織",
@@ -261,7 +261,7 @@ I18N.zh = {
             "Sources": "原始碼",
             "Forks": "衍生",
 
-            "View": "查看",
+            "View": "檢視",
             "new broadcast": "條新公告",
             "new broadcasts": "條新公告",
 
@@ -405,7 +405,7 @@ I18N.zh = {
             "New": "建立",
 
             "Block or report": "阻止或檢舉",
-            "Learn more about blocking a user.": "查看詳細的阻止使用者訊息。",
+            "Learn more about blocking a user.": "檢視詳細的阻止使用者訊息。",
             "Block or report this user": "阻止或檢舉該使用者",
             "Block user": "阻止該使用者",
             "Hide content and notifications from this user.": "封鎖所有來自該使用者的通知消息。",
@@ -461,7 +461,7 @@ I18N.zh = {
             "Contributions": "貢獻",
             "Include private contributions on my profile": "在我的首頁顯示私人貢獻",
             "Get credit for all your work by showing the number of contributions to private repositories on your profile without any repository or organization information.": "顯示所有包括私人倉庫的貢獻到您的個人資料頁面，不包括組織倉庫訊息。",
-            "Learn how we count contributions": "查看如統計貢獻",
+            "Learn how we count contributions": "檢視如統計貢獻",
             "Update contributions": "更新貢獻",
 
             "GitHub Developer Program": "GitHub 開發者計劃",
@@ -510,7 +510,7 @@ I18N.zh = {
             "Email preferences": "Email 偏好設定",
             "Receive all emails, except those I unsubscribe from.": "接收所有郵件，除了那些我退訂的訊息。",
             "We'll occasionally contact you with the latest news and happenings from the GitHub Universe.": "我們將會把 GitHub Universe 的最新消息和事件發送給您。",
-            "Learn more": "查看更多",
+            "Learn more": "檢視更多",
             "Only receive account related emails, and those I subscribe to.": "只接收帳戶相關的電子郵件，以及我的訂閱的訊息。",
             "We'll only send you legal or administrative emails, and any emails you’ve specifically subscribed to.": "我們只向您發送法律或行政郵件以及您訂閱訊息。",
             "Save email preferences": "儲存偏好",
@@ -782,7 +782,7 @@ I18N.zh = {
 
             "File uploading is now available": "現在可以上傳檔案了",
             "You can now drag and drop files into your repositories.": "您可以直接拖曳檔案到該倉庫介面進行上傳。",
-            "Learn more": "查看詳情",
+            "Learn more": "檢視詳情",
             "Dismiss": "我知道了",
 
             // 關注者頁面
@@ -901,7 +901,7 @@ I18N.zh = {
             "Your pull requests": "您的合併請求",
             "Everything assigned to you": "任何關於您的",
             "Everything mentioning you": "提及您的",
-            "View advanced search syntax": "查看進階搜尋語法",
+            "View advanced search syntax": "檢視進階搜尋語法",
 
             "Set milestone": "設定里程碑",
             "Open": "開放中",
@@ -943,7 +943,7 @@ I18N.zh = {
             "Least commented": "最少評論",
             "Recently updated": "最近更新",
             "Least recently updated": "最早更新",
-            "View all issues in this milestone": "查看這個里程碑的所有問題",
+            "View all issues in this milestone": "檢視這個里程碑的所有問題",
 
             // New collaborator 頁面
             "New collaborator": "新增合作者",
@@ -992,6 +992,7 @@ I18N.zh = {
             "Update": "更新",
             "Update ": "更新",
             "branch.": "分支。",
+            "This file is empty.": "這個檔案是空的。",
             "for this commit and start a pull request.": "給予這個提交，並且發起一個合併請求。",
             "Learn more about pull requests.": "了解更多合併請求。",
 
@@ -1001,7 +1002,7 @@ I18N.zh = {
             ". Start typing to filter the file list. Use": "。輸入關鍵詞尋找您的檔案。使用",
             "and": "和",
             "to navigate,": "選擇檔案",
-            "to view files,": "查看檔案",
+            "to view files,": "檢視檔案",
             "to exit.": "返回。",
 
             // 合併請求訊息提示
@@ -1048,7 +1049,7 @@ I18N.zh = {
             "You can also": "您也可以在",
             "open this in GitHub Desktop": "GitHub桌面版本",
             "or view": "打開，或透過",
-            "command line instructions": "命令列查看",
+            "command line instructions": "命令列檢視",
 
             //// 直接提交合併請求
             "Open a pull request": "建立一個合併請求",
@@ -1133,7 +1134,7 @@ I18N.zh = {
             "Filter branches": "搜尋分支",
             "Protected branches": "受保護的分支",
             "Protect branches to disable force pushing, prevent branches from being deleted, and optionally require status checks before merging. New to protected branches?": "受保護分支禁用強制推送，避免刪除分支機構，合併可選要求前狀態檢查。建立新的受保護的分支機構？",
-            "Learn more.": "查看更多訊息",
+            "Learn more.": "檢視更多訊息",
             "No protected branches yet.": "暫無受保護分支",
 
             "Are you ABSOLUTELY sure?": "您確定一定以及肯定？",
@@ -1152,7 +1153,7 @@ I18N.zh = {
             "base:": "基礎庫：",
             "compare:": "比較庫：",
             "Create pull request": "建立合併請求",
-            "Choose different branches or forks above to discuss and review changes.": "選擇不同的分支或衍生來討論和查看變化。",
+            "Choose different branches or forks above to discuss and review changes.": "選擇不同的分支或衍生來討論和檢視變化。",
             "Compare and review just about anything": "比較和審查任何檔案",
             "Branches, tags, commit ranges, and time ranges. In the same repository and across forks.": "分支，標籤，提交範圍和時間範圍。在同一倉庫和衍生的倉庫。",
             "Example comparisons": "比較例子",
@@ -1195,8 +1196,8 @@ I18N.zh = {
             "There aren’t any active branches.": "沒有任何活躍的分支。",
             "Stale branches": "陳舊的分支",
             "There aren’t any stale branches.": "沒有任何陳舊的分支。",
-            "View more active branches": "查看更多活躍的分支",
-            "View more stale branches": "查看更多陳舊的分支",
+            "View more active branches": "檢視更多活躍的分支",
+            "View more stale branches": "檢視更多陳舊的分支",
             "Compare": "比較",
             "Change default branch": "更改預設分支",
 
@@ -1262,7 +1263,7 @@ I18N.zh = {
             [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，儲存 $1 到您的電腦。"],
             [/([\d,]+) Open/, "$1 個開放的"],
             [/([\d,]+) Closed/, "$1 個關閉的"],
-            [/View all issues opened by (.+)/, "查看所有 $1 的問題"],
+            [/View all issues opened by (.+)/, "檢視所有 $1 的問題"],
             [/Welcome to the ([^ ]+) wiki!/, "歡迎訪問 $1 的 wiki"],
             [/([\d,]+) participants?/, "$1 參與者"],
             [/Commits on (.+)/, "提交於 $1"],
@@ -1357,7 +1358,7 @@ I18N.zh = {
 
             "File uploading is now available": "現在可以上傳檔案了",
             "You can now drag and drop files into your repositories.": "您可以直接拖曳檔案到該倉庫介面進行上傳。",
-            "Learn more": "查看詳情",
+            "Learn more": "檢視詳情",
             "Dismiss": "我知道了",
 
             // 關注者頁面
@@ -1474,7 +1475,7 @@ I18N.zh = {
             "Your pull requests": "您的合併請求",
             "Everything assigned to you": "任何關於您的",
             "Everything mentioning you": "提及您的",
-            "View advanced search syntax": "查看進階搜尋語法",
+            "View advanced search syntax": "檢視進階搜尋語法",
 
             "Set milestone": "設定里程碑",
             "Open": "開放中",
@@ -1516,7 +1517,7 @@ I18N.zh = {
             "Least commented": "最少評論",
             "Recently updated": "最近更新",
             "Least recently updated": "最早更新",
-            "View all issues in this milestone": "查看這個里程碑的所有問題",
+            "View all issues in this milestone": "檢視這個里程碑的所有問題",
 
             // New collaborator 頁面
             "New collaborator": "新增合作者",
@@ -1565,6 +1566,7 @@ I18N.zh = {
             "Update": "更新",
             "Update ": "更新",
             "branch.": "分支。",
+            "This file is empty.": "這個檔案是空的。",
             "for this commit and start a pull request.": "給予這個提交，並且發起一個合併請求。",
             "Learn more about pull requests.": "了解更多合併請求。",
 
@@ -1574,7 +1576,7 @@ I18N.zh = {
             ". Start typing to filter the file list. Use": "。輸入關鍵詞尋找您的檔案。使用",
             "and": "和",
             "to navigate,": "選擇檔案",
-            "to view files,": "查看檔案",
+            "to view files,": "檢視檔案",
             "to exit.": "返回。",
 
             // 合併請求訊息提示
@@ -1621,7 +1623,7 @@ I18N.zh = {
             "You can also": "您也可以在",
             "open this in GitHub Desktop": "GitHub桌面版本",
             "or view": "打開，或透過",
-            "command line instructions": "命令列查看",
+            "command line instructions": "命令列檢視",
 
             //// 直接提交合併請求
             "Open a pull request": "建立一個合併請求",
@@ -1706,7 +1708,7 @@ I18N.zh = {
             "Filter branches": "搜尋分支",
             "Protected branches": "受保護的分支",
             "Protect branches to disable force pushing, prevent branches from being deleted, and optionally require status checks before merging. New to protected branches?": "受保護分支禁用強制推送，避免刪除分支機構，合併可選要求前狀態檢查。建立新的受保護的分支機構？",
-            "Learn more.": "查看更多訊息",
+            "Learn more.": "檢視更多訊息",
             "No protected branches yet.": "暫無受保護分支",
 
             "Are you ABSOLUTELY sure?": "您確定一定以及肯定？",
@@ -1725,7 +1727,7 @@ I18N.zh = {
             "base:": "基礎庫：",
             "compare:": "比較庫：",
             "Create pull request": "建立合併請求",
-            "Choose different branches or forks above to discuss and review changes.": "選擇不同的分支或衍生來討論和查看變化。",
+            "Choose different branches or forks above to discuss and review changes.": "選擇不同的分支或衍生來討論和檢視變化。",
             "Compare and review just about anything": "比較和審查任何檔案",
             "Branches, tags, commit ranges, and time ranges. In the same repository and across forks.": "分支，標籤，提交範圍和時間範圍。在同一倉庫和衍生的倉庫。",
             "Example comparisons": "比較例子",
@@ -1768,8 +1770,8 @@ I18N.zh = {
             "There aren’t any active branches.": "沒有任何活躍的分支。",
             "Stale branches": "陳舊的分支",
             "There aren’t any stale branches.": "沒有任何陳舊的分支。",
-            "View more active branches": "查看更多活躍的分支",
-            "View more stale branches": "查看更多陳舊的分支",
+            "View more active branches": "檢視更多活躍的分支",
+            "View more stale branches": "檢視更多陳舊的分支",
             "Compare": "比較",
             "Change default branch": "更改預設分支",
 
@@ -1835,7 +1837,7 @@ I18N.zh = {
             [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，儲存 $1 到您的電腦。"],
             [/([\d,]+) Open/, "$1 個開放的"],
             [/([\d,]+) Closed/, "$1 個關閉的"],
-            [/View all issues opened by (.+)/, "查看所有 $1 的問題"],
+            [/View all issues opened by (.+)/, "檢視所有 $1 的問題"],
             [/Welcome to the ([^ ]+) wiki!/, "歡迎訪問 $1 的 wiki"],
             [/([\d,]+) participants?/, "$1 參與者"],
             [/Commits on (.+)/, "提交於 $1"],
@@ -2205,8 +2207,8 @@ I18N.zh = {
             "Starred gists": "已讚片段",
             "Your GitHub profile": "設定",
 
-            "View profile and more": "查看更多訊息",
-            "See all of your gists": "查看您的所有片段",
+            "View profile and more": "檢視更多訊息",
+            "See all of your gists": "檢視您的所有片段",
             "Instantly share code, notes, and snippets.": "即時分享您的程式碼，筆記，片段，以及靈感。",
             "Gist description…": "片段描述",
 
@@ -2237,7 +2239,7 @@ I18N.zh = {
             "Secret only": "僅私人",
             "forked from": "衍生自",
             "Created": "建立於",
-            "View": "查看",
+            "View": "檢視",
             "Newer": "新的",
             "Older": "舊的",
 
@@ -2285,7 +2287,7 @@ I18N.zh = {
             "You don’t have any starred gists yet.": "您還沒有讚過任何片段。",
         },
         "regexp": [ // 正則翻譯
-            [/View ([^ ]+) on GitHub/, "查看 $1 的 GitHub"],
+            [/View ([^ ]+) on GitHub/, "檢視 $1 的 GitHub"],
             [/(\d+) files?/, "$1 檔案"],
             [/(\d+) forks?/, "$1 衍生"],
             [/(\d+) comments?/, "$1 評論"],
@@ -2299,14 +2301,14 @@ I18N.zh = {
             "Authorize application": "應用授權",
             "by": "的",
             "would like permission to access your account": "想訪問您的帳戶",
-            "Review permissions": "查看權限",
+            "Review permissions": "檢視權限",
             "Public data only": "僅公共資料",
             "Limited access to your public data": "僅限訪問您的公共資料",
             "This application will be able to identify you and read public information.": "此應用程式將能辨識您的身份和讀取您的公共訊息。",
             "Learn more": "更多",
 
             "Visit application’s website": "訪問應用官網",
-            "Learn more about OAuth": "查看更多授權訊息",
+            "Learn more about OAuth": "檢視更多授權訊息",
         },
         "regexp": [ // 正則翻譯
         ],
