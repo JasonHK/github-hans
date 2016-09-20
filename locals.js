@@ -704,6 +704,13 @@ I18N.zh = {
 
 
 			//
+			"This repository doesn't have any projects yet": "這個倉庫還沒有任何專案",
+			"Create a project": "建立專案",
+			"Drag, drop, and organize your work": "拖曳、丟下，還有整合你的工作",
+			"Track Issues, Pull Requests, and Notes": "追蹤問題、合併請求、還有筆記",
+			"Drag and drop cards on kanban-style boards to organize your work and plan projects with teammates.": "將卡片在看板中拖曳和丟下並且和你的團隊一同規劃工作。",
+			"Create Notes to quickly add tasks or reminders to your project. They can be converted to Issues when you're ready.": "快速新增你的記事用以提醒你的專案。還能夠在你準備好的時候轉換為問題。",
+
 			"No description": "沒有說明",
 			"Find a project": "尋找專案",
 			"New Project": "建立專案",
@@ -1305,6 +1312,13 @@ I18N.zh = {
     "vis-private": { // 倉庫頁
         "static": { // 靜態翻譯
 
+			"This repository doesn't have any projects yet": "這個倉庫還沒有任何專案",
+			"Create a project": "建立專案",
+			"Drag, drop, and organize your work": "拖曳、丟下，還有整合你的工作",
+			"Track Issues, Pull Requests, and Notes": "追蹤問題、合併請求、還有筆記",
+			"Drag and drop cards on kanban-style boards to organize your work and plan projects with teammates.": "將卡片在看板中拖曳和丟下並且和你的團隊一同規劃工作。",
+			"Create Notes to quickly add tasks or reminders to your project. They can be converted to Issues when you're ready.": "快速新增你的記事用以提醒你的專案。還能夠在你準備好的時候轉換為問題。",
+			
 			"No description": "沒有說明",
 			"Find a project": "尋找專案",
 			"New Project": "建立專案",
