@@ -702,6 +702,32 @@ I18N.zh = {
     "vis-public": { // 倉庫頁
         "static": { // 靜態翻譯
 
+
+			//
+			"No description": "沒有說明",
+			"Find a project": "尋找專案",
+			"New Project": "建立專案",
+			"Project": "專案",
+			"Projects": "專案",
+			"projects": "個專案",
+			"edit projects": "編輯專案",
+
+			"opened by": "開放者為",
+			"Added by": "建立者為",
+			"Add cards": "新增卡片",
+			"Fullscreen": "全螢幕",
+
+			"Edit column": "編輯欄位",
+			"Column name": "欄位名稱",
+			"Update column": "更新欄位",
+			"Delete column": "移除欄位",
+
+			"Enter a note": "輸入記事內容",
+			"Add note": "新增記事",
+
+			"No results.": "沒有資料。",
+			"Search for issues/PRs...": "搜尋問題／合併請求⋯",
+
             // 匯入倉庫 第二頁
             "Preparing your new repository": "準備新的存儲庫",
             "There is no need to keep this window open, we’ll email you when the import is done.": "沒有必要在這個視窗傻等，當匯入完成時，我們會向您發送電子郵件。",
@@ -716,6 +742,7 @@ I18N.zh = {
             "Add a README with an overview of your project.": "新增一個 README 檔案介紹你的專案。",
             "Add a README": "新增 README",
             "private": "私人",
+			"Private": "私人",
             "Code": "程式碼",
             "Wiki": "維基",
             "Pulse": "統計",
@@ -1278,6 +1305,31 @@ I18N.zh = {
     "vis-private": { // 倉庫頁
         "static": { // 靜態翻譯
 
+			"No description": "沒有說明",
+			"Find a project": "尋找專案",
+			"New Project": "建立專案",
+			"Project": "專案",
+			"Projects": "專案",
+			"projects": "個專案",
+			"edit projects": "編輯專案",
+
+			"opened by": "開放者為",
+			"Added by": "建立者為",
+			"Add cards": "新增卡片",
+			"Fullscreen": "全螢幕",
+
+			"Edit column": "編輯欄位",
+			"Column name": "欄位名稱",
+			"Update column": "更新欄位",
+			"Delete column": "移除欄位",
+
+			"Enter a note": "輸入記事內容",
+			"Add note": "新增記事",
+
+			"No results.": "沒有資料。",
+			"Search for issues/PRs...": "搜尋問題／合併請求⋯",
+
+
             // 匯入倉庫 第二頁
             "Preparing your new repository": "準備新的存儲庫",
             "There is no need to keep this window open, we’ll email you when the import is done.": "沒有必要在這個視窗傻等，當匯入完成時，我們會向您發送電子郵件。",
@@ -1292,6 +1344,7 @@ I18N.zh = {
             "Add a README with an overview of your project.": "新增一個 README 檔案介紹你的專案。",
             "Add a README": "新增 README",
             "private": "私人",
+			"Private": "私人",
             "Code": "程式碼",
             "Wiki": "維基",
             "Pulse": "統計",
