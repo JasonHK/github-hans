@@ -94,7 +94,7 @@ I18N.zh = {
 
             "Signed in as": "您好",
             "Your profile": "您的首頁",
-            "Your stars": "點讚的項目",
+            "Your stars": "點星號的項目",
             "Explore": "探索",
             "Integrations": "整合",
             "Help": "幫助",
@@ -103,7 +103,7 @@ I18N.zh = {
 
             "Showcases": "展櫃",
             "Trending": "趨勢",
-            "Stars": "已讚",
+            "Stars": "已星號",
 
 
             "Previous": "上一頁",
@@ -170,8 +170,8 @@ I18N.zh = {
             "Unfollow": "取消關注",
             "Watch": "關注",
             "Unwatch": "取消關注",
-            "Star": "點讚",
-            "Unstar": "取消點讚",
+            "Star": "星號",
+            "Unstar": "取消星號",
             "Fork": "衍生",
 
             // 信箱驗證提示
@@ -267,7 +267,7 @@ I18N.zh = {
             "new broadcasts": "條新公告",
 
             // 動態 狀態詞
-            "starred": "讚了",
+            "starred": "星號了",
             "forked": "衍生了",
             "forked from": "衍生至",
             "created repository": "建立了倉庫",
@@ -308,7 +308,7 @@ I18N.zh = {
 
             "Joined on": "註冊於",
             "Change your avatar": "修改頭像",
-            "Starred": "讚了",
+            "Starred": "星號了",
             "Following": "關注",
             "Organizations": "組織",
             "Contributions": "貢獻",
@@ -380,7 +380,7 @@ I18N.zh = {
             "Issues reported": "問題報告",
 
             // 動態 狀態詞
-            "starred": "讚了",
+            "starred": "星號了",
             "forked": "收藏了",
             "forked from": "收藏至",
             "created repository": "建立了倉庫",
@@ -828,7 +828,7 @@ I18N.zh = {
             "Watchers": "關注者",
 
             // 點讚者頁面
-            "Stargazers": "點讚的人",
+            "Stargazers": "星號的人",
             "All": "全部",
             "You know": "您關注的",
 
@@ -1441,8 +1441,8 @@ I18N.zh = {
             // 關注者頁面
             "Watchers": "關注者",
 
-            // 點讚者頁面
-            "Stargazers": "點讚的人",
+            // 星號者頁面
+            "Stargazers": "星號的人",
             "All": "全部",
             "You know": "您關注的",
 
@@ -2093,15 +2093,15 @@ I18N.zh = {
         ],
     },
 
-    "stars": { // 點讚頁面
+    "stars": { // 星號頁面
         "static": { // 靜態翻譯
-            "Search starred repositories…": "搜尋點讚的倉庫…",
+            "Search starred repositories…": "搜尋星號的倉庫…",
             "Sort:": "排序：",
             "Sort options": "排序選項",
             "Recently starred": "最近關注的",
             "Recently active": "最近活動的",
-            "Most stars": "最多讚的",
-            "Unstar": "取消點讚",
+            "Most stars": "最多星號的",
+            "Unstar": "取消星號",
 
             "All stars": "所有倉庫",
             "Your repositories": "您的倉庫",
@@ -2144,9 +2144,9 @@ I18N.zh = {
             "Filter Languages": "篩選語言",
         },
         "regexp": [ // 正則翻譯
-            [/([\d,]+) stars today([^B]+)[\w ]+/, "今天 $1 讚$2建立者"],
-            [/([\d,]+) stars this week([^B]+)[\w ]+/, "本週 $1 讚$2建立者"],
-            [/([\d,]+) stars this month([^B]+)[\w ]+/, "本月 $1 讚$2建立者"],
+            [/([\d,]+) stars today([^B]+)[\w ]+/, "今天 $1 星號$2建立者"],
+            [/([\d,]+) stars this week([^B]+)[\w ]+/, "本週 $1 星號$2建立者"],
+            [/([\d,]+) stars this month([^B]+)[\w ]+/, "本月 $1 星號$2建立者"],
         ],
     },
 
@@ -2217,8 +2217,8 @@ I18N.zh = {
             "Sort:": "排序：",
             "Sort options": "排序選項",
             "Best match": "最佳匹配",
-            "Most stars": "最多讚",
-            "Fewest stars": "最少讚",
+            "Most stars": "最多星號",
+            "Fewest stars": "最少星號",
             "Most forks": "最多衍生",
             "Fewest forks": "最少衍生",
             "Recently updated": "最近更新",
@@ -2235,7 +2235,7 @@ I18N.zh = {
             "Everything else": "其他語言",
 
             "Repositories options": "倉庫選項",
-            "With this many stars": "指定被讚數",
+            "With this many stars": "指定被星號數",
             "With this many forks": "指定衍生數",
             "Of this size": "倉庫大小",
             "Pushed to": "推送於",
@@ -2281,7 +2281,7 @@ I18N.zh = {
             "All gists": "所有片段",
             "New gist": "建立片段",
             "Your gists": "您的片段",
-            "Starred gists": "已讚片段",
+            "Starred gists": "已星號片段",
             "Your GitHub profile": "設定",
 
             "View profile and more": "檢視更多訊息",
@@ -2323,14 +2323,14 @@ I18N.zh = {
             // View 程式碼 頁面
             "Edit": "編輯",
             "Delete": "刪除",
-            "Star": "點讚",
-            "Unstar": "取消點讚",
+            "Star": "星號",
+            "Unstar": "取消星號",
             "User actions": "使用者操作",
             "Report abuse": "檢舉該使用者",
 
             "Code": "程式碼",
             "Revisions": "修訂",
-            "Stars": "被讚",
+            "Stars": "被星號",
             "Forks": "衍生",
 
             // 程式碼頁面
@@ -2360,15 +2360,15 @@ I18N.zh = {
             "Update public gist": "更新片段",
 
             // 已讚頁面
-            "Starred": "讚了",
-            "You don’t have any starred gists yet.": "您還沒有讚過任何片段。",
+            "Starred": "星號了",
+            "You don’t have any starred gists yet.": "您還沒有星號過任何片段。",
         },
         "regexp": [ // 正則翻譯
             [/View ([^ ]+) on GitHub/, "檢視 $1 的 GitHub"],
             [/(\d+) files?/, "$1 檔案"],
             [/(\d+) forks?/, "$1 衍生"],
             [/(\d+) comments?/, "$1 評論"],
-            [/(\d+) stars?/, "$1 讚"],
+            [/(\d+) stars?/, "$1 星號"],
             [/Save (.+?) to your computer and use it in GitHub Desktop./, "使用 GitHub 桌面版，儲存 $1 到您的電腦。"],
         ],
     },
